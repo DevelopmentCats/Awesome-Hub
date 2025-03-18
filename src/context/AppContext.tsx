@@ -1,6 +1,13 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { 
+  getFavorites, saveFavorites, 
+  getFavoriteItems, addFavoriteItem, removeFavoriteItem, isItemFavorite 
+} from '@/utils/clientStorage';
+
+// Define available application sections
+export type AppSection = 'home' | 'list' | 'search' | 'favorites';
 
 interface AppContextType {
   // Theme
@@ -15,6 +22,26 @@ interface AppContextType {
   // Recently Viewed
   recentlyViewed: string[];
   addToRecentlyViewed: (id: string) => void;
+  
+  // Section tracking
+  currentSection: AppSection;
+  setCurrentSection: (section: AppSection) => void;
+  
+  // New functions
+  addItemToFavorites: (item: {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    listName: string;
+    listId: string;
+    demoUrl?: string;
+    sourceCodeUrl?: string;
+    license?: string;
+    techStack?: string;
+  }) => void;
+  removeItemFromFavorites: (id: string) => void;
+  isItemInFavorites: (id: string) => boolean;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -32,6 +59,9 @@ export function AppProvider({ children }: AppProviderProps) {
   
   // Recently viewed state
   const [recentlyViewed, setRecentlyViewed] = useState<string[]>([]);
+  
+  // Section tracking
+  const [currentSection, setCurrentSection] = useState<AppSection>('home');
   
   // Load preferences from localStorage on component mount
   useEffect(() => {
@@ -106,14 +136,57 @@ export function AppProvider({ children }: AppProviderProps) {
     });
   };
   
+  // Add item to favorites with complete metadata
+  const addItemToFavorites = (item: {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    listName: string;
+    listId: string;
+    demoUrl?: string;
+    sourceCodeUrl?: string;
+    license?: string;
+    techStack?: string;
+  }) => {
+    // Add to favorites using the full item metadata
+    addFavoriteItem(item);
+    
+    // Also update the simple favorites list for backward compatibility
+    if (!favorites.includes(item.id)) {
+      setFavorites(prev => [...prev, item.id]);
+    }
+  };
+  
+  // Remove from favorites
+  const removeItemFromFavorites = (id: string) => {
+    // Remove from detailed favorites
+    removeFavoriteItem(id);
+    
+    // Also update the simple favorites list
+    if (favorites.includes(id)) {
+      setFavorites(prev => prev.filter(itemId => itemId !== id));
+    }
+  };
+  
+  // Check if item is in favorites
+  const isItemInFavorites = (id: string) => {
+    return isItemFavorite(id);
+  };
+  
   const value = {
     isDarkMode,
     toggleColorMode,
     favorites,
     addToFavorites,
     removeFromFavorites,
+    addItemToFavorites,
+    removeItemFromFavorites,
+    isItemInFavorites,
     recentlyViewed,
     addToRecentlyViewed,
+    currentSection,
+    setCurrentSection,
   };
   
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

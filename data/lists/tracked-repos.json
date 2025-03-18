@@ -4,7 +4,15 @@
     "repo": "awesome-selfhosted",
     "name": "Awesome Selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "lastChecked": "2025-03-16T17:46:18.959Z",
+    "lastChecked": "2025-03-18T16:58:21.591Z",
+    "branch": "master"
+  },
+  {
+    "owner": "kahun",
+    "repo": "awesome-sysadmin",
+    "name": "Awesome Sysadmin",
+    "description": "A curated list of amazingly awesome open source sysadmin resources.",
+    "lastChecked": "2025-03-18T18:07:24.014Z",
     "branch": "master"
   }
 ]

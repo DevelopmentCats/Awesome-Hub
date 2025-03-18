@@ -130,7 +130,7 @@ async function getReadmeContent(owner: string, repo: string, branch: string = 'm
  * Get the appropriate processor for a repository
  * Now always returns the universal parser
  */
-function getListProcessor(owner: string, repo: string): (markdown: string, owner: string, repo: string) => AwesomeList {
+function getListProcessor(owner: string, repo: string): (markdown: string, owner: string, repo: string, repoConfig?: TrackedRepository) => AwesomeList {
   // Always use the universal parser
   return parseMarkdown;
 }
@@ -203,7 +203,7 @@ async function processAwesomeList(repo: TrackedRepository): Promise<boolean> {
     const processor = getListProcessor(owner, repoName);
     
     // Process the markdown content
-    const currentList = processor(readmeContent, owner, repoName);
+    const currentList = processor(readmeContent, owner, repoName, repo);
     
     // Get previous version if available
     const previousList = await getStoredList(owner, repoName);

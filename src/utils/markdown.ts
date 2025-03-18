@@ -1,6 +1,7 @@
 import { marked } from 'marked';
 import type { Token, Tokens } from 'marked';
 import crypto from 'crypto';
+import type { TrackedRepository } from '@/types';
 
 interface ListItem {
   id: string;
@@ -311,7 +312,7 @@ function extractMetadata(description: string): {
 /**
  * Parse markdown content into structured data using a universal approach
  */
-export function parseMarkdown(markdown: string, owner: string, repo: string): AwesomeList {
+export function parseMarkdown(markdown: string, owner: string, repo: string, repoConfig?: TrackedRepository): AwesomeList {
   const tokens = marked.lexer(markdown);
   const items: ListItem[] = [];
   const categories: string[] = [];
@@ -322,26 +323,30 @@ export function parseMarkdown(markdown: string, owner: string, repo: string): Aw
   
   let currentCategory: string | undefined;
   let currentSubcategory: string | undefined;
-  let listName = repo;
+  
+  // Use the name from repoConfig if provided, otherwise extract from markdown
+  let listName = repoConfig?.name || repo;
   
   // Find the main description and list name (usually in the first paragraph after title)
   let description = extractMainDescription(tokens);
   
-  // Find the title (H1) if we haven't already
-  for (let i = 0; i < Math.min(tokens.length, 5); i++) {
-    const token = tokens[i];
-    if (token.type === 'heading' && 'depth' in token && token.depth === 1 && 'text' in token) {
-      // Extract list name from title
-      const titleText = token.text;
-      if (titleText.includes('Awesome')) {
-        // Parse out just the name part
-        listName = titleText.replace(/[^a-zA-Z0-9 ]/g, ' ').trim();
-        if (listName.toLowerCase().startsWith('awesome')) {
-          listName = listName.substring('awesome'.length).trim();
+  // Find the title (H1) if we need to extract the name from markdown
+  if (!repoConfig?.name) {
+    for (let i = 0; i < Math.min(tokens.length, 5); i++) {
+      const token = tokens[i];
+      if (token.type === 'heading' && 'depth' in token && token.depth === 1 && 'text' in token) {
+        // Extract list name from title
+        const titleText = token.text;
+        if (titleText.includes('Awesome')) {
+          // Parse out just the name part
+          listName = titleText.replace(/[^a-zA-Z0-9 ]/g, ' ').trim();
+          if (listName.toLowerCase().startsWith('awesome')) {
+            listName = listName.substring('awesome'.length).trim();
+          }
+          if (!listName) listName = repo; // Fallback
         }
-        if (!listName) listName = repo; // Fallback
+        break; // Found the title, no need to continue this loop
       }
-      break; // Found the title, no need to continue this loop
     }
   }
   

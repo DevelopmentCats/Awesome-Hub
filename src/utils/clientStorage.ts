@@ -66,4 +66,68 @@ export function removeFromFavorites(listId: string): void {
 export function isFavorite(listId: string): boolean {
   const favorites = getFavorites();
   return favorites.includes(listId);
+}
+
+interface FavoriteItem {
+  id: string;
+  title: string;
+  description: string;
+  url: string;
+  listName: string;
+  listId: string;
+  demoUrl?: string;
+  sourceCodeUrl?: string;
+  license?: string;
+  techStack?: string;
+}
+
+/**
+ * Get user's favorite items
+ */
+export function getFavoriteItems(): FavoriteItem[] {
+  return getFromStorage<FavoriteItem[]>('awesome-hub-favorite-items', []);
+}
+
+/**
+ * Save user's favorite items
+ */
+export function saveFavoriteItems(items: FavoriteItem[]): void {
+  saveToStorage('awesome-hub-favorite-items', items);
+}
+
+/**
+ * Add an item to favorites
+ */
+export function addFavoriteItem(item: FavoriteItem): void {
+  const items = getFavoriteItems();
+  
+  // Ensure we have valid values for important fields
+  const enhancedItem = {
+    ...item,
+    listName: item.listName || 'Unknown List',
+    listId: item.listId || '',
+    description: item.description || ''
+  };
+  
+  if (!items.some(i => i.id === item.id)) {
+    items.push(enhancedItem);
+    saveFavoriteItems(items);
+  }
+}
+
+/**
+ * Remove an item from favorites
+ */
+export function removeFavoriteItem(itemId: string): void {
+  const items = getFavoriteItems();
+  const updated = items.filter(item => item.id !== itemId);
+  saveFavoriteItems(updated);
+}
+
+/**
+ * Check if an item is favorited
+ */
+export function isItemFavorite(itemId: string): boolean {
+  const items = getFavoriteItems();
+  return items.some(item => item.id === itemId);
 } 

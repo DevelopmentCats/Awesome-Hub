@@ -6,6 +6,7 @@ A centralized platform for exploring GitHub awesome lists with a modern UI and a
 
 - **Automatic Scraping**: Automatically fetches and updates data from GitHub awesome lists
 - **Modern UI**: Explore awesome lists with a clean, responsive interface
+- **Persistent Sidebar Navigation**: Easy navigation between lists without leaving the current view
 - **New Item Tracking**: Easily identify newly added resources
 - **Categorized Browsing**: Browse resources by categories and subcategories
 
@@ -44,12 +45,12 @@ A centralized platform for exploring GitHub awesome lists with a modern UI and a
 
 The application will automatically fetch data from GitHub awesome lists on startup. This process might take a few minutes on the first run. Once complete, you can:
 
-- Browse all tracked awesome lists on the homepage
-- View details of a specific list by clicking on it
+- Browse all tracked awesome lists using the sidebar navigation
+- Switch between different lists without page reloads
 - Filter resources by category or search for specific items
-- Check the "New Items" tab to see recently added resources
+- Check the "What's New" section on the homepage to see recently added resources
 
-If you need to manually update the data, simply click the "Update Data" button on any list page.
+If you need to manually update the data, you can do so from the settings panel.
 
 ## Configuration
 

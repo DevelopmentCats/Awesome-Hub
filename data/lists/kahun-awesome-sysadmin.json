@@ -1,0 +1,3853 @@
+{
+  "id": "kahun/awesome-sysadmin",
+  "name": "Awesome Sysadmin",
+  "description": "A curated list of amazingly awesome open source sysadmin resources.",
+  "owner": "kahun",
+  "repo": "awesome-sysadmin",
+  "items": [
+    {
+      "id": "1ca8cdaadd7f29c3b1d78b6ec2aa65b4",
+      "title": "Amanda",
+      "description": "Client-server model backup tool",
+      "url": "http://www.amanda.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "2aa5a574b51f6d2945d58daf26456d11",
+      "title": "Attic",
+      "description": "A deduplicating backup program written in Python",
+      "url": "https://attic-backup.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "d9ac8e40b6a0273cc5af6fbef58284fa",
+      "title": "Bacula",
+      "description": "Another Client-server model backup tool",
+      "url": "http://www.bacula.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "5240d0d9dd239236c48ea7f9d1b6bb09",
+      "title": "Bareos",
+      "description": "A fork of Bacula backup tool",
+      "url": "http://www.bareos.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "44ee88f8c6e3f0374bc052a4e41d8ad6",
+      "title": "Barman",
+      "description": "Backup and Recovery Manager for disaster recovery of PostgreSQL servers",
+      "url": "http://www.pgbarman.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "9d18d54099d3a5cc9cba3a223edb4abd",
+      "title": "Backupninja",
+      "description": "Lightweight, extensible meta-backup system",
+      "url": "https://labs.riseup.net/code/projects/backupninja",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "a18601bafac05e59eed0d9806a782cf1",
+      "title": "Backuppc",
+      "description": "Client-server model backup tool with file pooling scheme",
+      "url": "http://backuppc.sourceforge.net/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "efad7ac448e871ad7f13174b5227598b",
+      "title": "Brebis",
+      "description": "A fully automated backup checker",
+      "url": "http://brebisproject.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "ca35636d1a9c00c5c0d4efd38a15d822",
+      "title": "Bup",
+      "description": "Incremental backups with rolling checksums, git packfiles, de-duplication, and a FUSE filesystem",
+      "url": "https://github.com/bup/bup",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "9ffdae9390e74be42995aa69bd494e03",
+      "title": "Burp",
+      "description": "Network backup and restore program",
+      "url": "http://burp.grke.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "f9a1ca548cc24d9d98bf18593ccac734",
+      "title": "Duplicati",
+      "description": "Multiple backends, encryption, web-ui and multi-OS backup tool",
+      "url": "http://www.duplicati.com",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "ccc6bc7d19b03735885945ac024e0646",
+      "title": "Duplicity",
+      "description": "Encrypted bandwidth-efficient backup using the rsync algorithm",
+      "url": "http://duplicity.nongnu.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "ad13fb44c797b38263b3b8d38b804224",
+      "title": "FreeFileSync",
+      "description": "Folder comparison and synchronization tool",
+      "url": "http://www.freefilesync.org",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "0cf5393fc69aa8ad6a7dfec140787762",
+      "title": "Lsyncd",
+      "description": "File Monitor which spawns a process to synchronize the changes (rsync by default)",
+      "url": "https://github.com/axkibe/lsyncd",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "dc856f17dead4bd415917a23b82ebd32",
+      "title": "restic",
+      "description": "Fast, secure, efficient backup program",
+      "url": "https://github.com/restic/restic",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "606f783b4f6eb8c266822792babbf23f",
+      "title": "Rsnapshot",
+      "description": "Filesystem Snapshotting Utility",
+      "url": "http://www.rsnapshot.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "66558e1689a118c41f2f1ba78929acd4",
+      "title": "SafeKeep",
+      "description": "Centralized pull-based backup using",
+      "url": "http://safekeep.sourceforge.net/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false,
+      "license": "rdiff-backup"
+    },
+    {
+      "id": "492ff0d8b785f92f277442024f3bc2cc",
+      "title": "Snebu",
+      "description": "Snapshot backup with global multi-client deduplication and transparent compression",
+      "url": "http://www.snebu.com/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "8fdd2e380c2718bd2b53f87bdb571c55",
+      "title": "UrBackup",
+      "description": "Another client-server backup system",
+      "url": "http://www.urbackup.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "3a6027749a9532f8c536eade0cf380a7",
+      "title": "ZBackup",
+      "description": "A versatile deduplicating backup tool",
+      "url": "http://zbackup.org/",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "d9c862117c25ebda53e5ada75862f33d",
+      "title": "Backup",
+      "description": "Provides an elegant DSL in Ruby for performing backups on UNIX-like systems",
+      "url": "https://github.com/meskyanichi/backup",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "2986a30246fe9965cedb4991852bc4ef",
+      "title": "DREBS",
+      "description": "AWS EBS backup script that supports strategies",
+      "url": "https://github.com/dojo4/drebs",
+      "category": "Backups",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "6d60d692ddf91d38c7be9a5d095cc4ff",
+      "title": "Apache Ant",
+      "description": "Automation build tool, similar to make, written in Java",
+      "url": "https://ant.apache.org/",
+      "category": "Build Automation",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "3bc914833d0afb75bc10ab93d62e426e",
+      "title": "Apache Maven",
+      "description": "Build automation tool mainly for Java",
+      "url": "http://maven.apache.org/",
+      "category": "Build Automation",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "74e3d3397ed50dfe11d7128616ac83f6",
+      "title": "GNU Make",
+      "description": "The most popular automation build tool for many purposes",
+      "url": "http://www.gnu.org/software/make/",
+      "category": "Build Automation",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "0e025101d02f96a7e87d558ced6b93b6",
+      "title": "Gradle",
+      "description": "Another open source build automation system",
+      "url": "http://gradle.org/",
+      "category": "Build Automation",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "5bde08b4291b1a7112649be9b4002c47",
+      "title": "CloudBot",
+      "description": "The simple, fast, expandable, open-source Python IRC bot",
+      "url": "https://github.com/CloudBotIRC/CloudBot",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "3b4f57d72182e6e9482c4ac650aaddf0",
+      "title": "Eggdrop",
+      "description": "The world's most popular Open Source IRC bot, designed for flexibility and ease of use",
+      "url": "http://www.eggheads.org/",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "49e919112e5543a2ad7e00c22a016e12",
+      "title": "Err",
+      "description": "A plugin based chatbot designed to be easily deployable, extensible and maintainable",
+      "url": "http://errbot.net/",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "3434e21e1260b0eacb8c6fc0c69935bb",
+      "title": "Hubot",
+      "description": "A customizable, life embetterment robot",
+      "url": "https://hubot.github.com/",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "4bad77841343f0e0481bc2494cb62628",
+      "title": "Lazlo",
+      "description": "A chatops automation framework in Go",
+      "url": "https://github.com/djosephsen/lazlo",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "eccfca6198a48fbc5f075147e9cf3a21",
+      "title": "Lita",
+      "description": "A robot companion for your company's chat room",
+      "url": "https://www.lita.io/",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "35da8bc050f0b42ed60b78bad7af8f96",
+      "title": "KeyBase",
+      "description": "Encrypted chat, cloud and git",
+      "url": "https://www.keybase.io/",
+      "category": "ChatOps",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "6bda825ea55d9b0ded5cae81a20e5e84",
+      "title": "Clonezilla",
+      "description": "Partition and disk imaging/cloning program",
+      "url": "http://clonezilla.org/",
+      "category": "Cloning",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "d078a9a2526cf2c49795e9f5da1c21d0",
+      "title": "Fog",
+      "description": "Another computer cloning solution",
+      "url": "http://www.fogproject.org/",
+      "category": "Cloning",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "e80810dccc7b7a77df895fc9a2ad9726",
+      "title": "Redo Backup",
+      "description": "Easy Backup, Recovery and Restore",
+      "url": "http://redobackup.org/",
+      "category": "Cloning",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "6f2e815fdb6e8b73dbd94a10d51183d3",
+      "title": "AppScale",
+      "description": "Open source cloud software with Google App Engine compatibility",
+      "url": "http:/github.com/AppScale/appscale",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "51b6b74f2b6b617bd888276f4a778269",
+      "title": "Archipel",
+      "description": "Manage and supervise virtual machines using Libvirt",
+      "url": "http://archipelproject.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "422fd5fcd74ae89b8b6c9e85f6a58881",
+      "title": "CloudStack",
+      "description": "Cloud computing software for creating, managing, and deploying infrastructure cloud services",
+      "url": "http://cloudstack.apache.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "b571933b45c0f584136493db03fdc193",
+      "title": "Cobbler",
+      "description": "Cobbler is a Linux installation server that allows for rapid setup of network installation environments",
+      "url": "http://cobbler.github.io",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.005Z",
+      "isNew": false
+    },
+    {
+      "id": "8b1a65e8cb46d507c68b072a2681681a",
+      "title": "Eucalyptus",
+      "description": "Open source private cloud software with AWS compatibility",
+      "url": "https://www.eucalyptus.com/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "daa92dee75e622cc0f6fbc720b755884",
+      "title": "Mesos",
+      "description": "Develop and run resource-efficient distributed systems",
+      "url": "http://mesos.apache.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b330d929958097b288fbb32fed025193",
+      "title": "OpenNebula",
+      "description": "An user-driven cloud management platform for sysadmins and devops",
+      "url": "http://opennebula.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6868de96572b1b967f24ca2f7a1021a1",
+      "title": "Openshift Origin",
+      "description": "Open source upstream of OpenShift, the next generation application hosting platform developed by Red Hat",
+      "url": "https://www.openshift.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b833e00b874275c218b93558022b8cf9",
+      "title": "OpenStack",
+      "description": "Open source software for building private and public clouds",
+      "url": "https://www.openstack.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b794924f1f387083b41097e6dc3aa12b",
+      "title": "The Foreman",
+      "description": "Foreman is a complete lifecycle management tool for physical and virtual servers. FOSS",
+      "url": "http://theforeman.org/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "0e96602551dd760a615f5eed1810c655",
+      "title": "Tsuru",
+      "description": "Tsuru is an extensible and open source Platform as a Service software",
+      "url": "http://www.tsuru.io/",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a214cce58a9ad4a9ae46b6cc3ed0e8cf",
+      "title": "Terraform",
+      "description": "Terraform allows you to practice infrastructure as code and is commonly used for AWS/GCE",
+      "url": "https://terraform.io",
+      "category": "Cloud Computing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "80ce82803acc3abf7e481d28f618c992",
+      "title": "BOSH",
+      "description": "IaaS orchestration platform originally written for deploying and managing Cloud Foundry PaaS, but also useful for general purpose distributed systems",
+      "url": "http://docs.cloudfoundry.org/bosh/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3d143c98316acd3908b7799b6294af2f",
+      "title": "Ansible",
+      "description": "Contains modules for controlling many types of cloud resources",
+      "url": "http://www.ansible.com",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "13edfb0d5f8008f38e1fa98616044051",
+      "title": "Cloudify",
+      "description": "Open source TOSCA-based cloud orchestration software platform written in Python and YAML",
+      "url": "http://cloudify.co/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "34391e84ff5d99556ec5d620077ad02c",
+      "title": "consul",
+      "description": "It is a tool for discovering and configuring services in your infrastructure",
+      "url": "http://www.consul.io/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "72e61cecfa906db774d8c4e70b9473a5",
+      "title": "doozerd",
+      "description": "Doozer is a highly-available, completely consistent store for small amounts of extremely important data",
+      "url": "https://github.com/ha/doozerd",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "33da1d6d4931d8f484585cab1fdd53e9",
+      "title": "etcd",
+      "description": "A highly-available key value store for shared configuration and service discovery",
+      "url": "https://github.com/coreos/etcd",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c7d7bc77931383891f7b8a33dea2c91f",
+      "title": "Juju",
+      "description": "Cloud orchestration tool which manages services as charms, YAML configuration and deployment script bundles",
+      "url": "https://juju.ubuntu.com/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "87ede33ce6a30a569db577b12dde68d6",
+      "title": "MCollective",
+      "description": "Ruby framework to manage server orchestration, developed by Puppet labs",
+      "url": "http://puppetlabs.com/mcollective",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "86106b7f94e43a55acd68e9342ccbecd",
+      "title": "Overcast",
+      "description": "Deploy VMs across different cloud providers, and run commands and scripts across any or all of them in parallel via SSH",
+      "url": "http://andrewchilds.github.io/overcast/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "ad580dad545230b8d74a60688e90e29b",
+      "title": "Rundeck",
+      "description": "Simple orchestration tool",
+      "url": "http://rundeck.org/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2c4e8458eaf0dee1374a230d86d1a0ec",
+      "title": "Salt",
+      "description": "Fast, scalable and flexible systems management software written in Python/ZeroMQ",
+      "url": "http://www.saltstack.com/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f10305bcf5b3c0f8844a80302a93364e",
+      "title": "serf",
+      "description": "Serf is a tool for cluster membership",
+      "url": "http://www.serfdom.io/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "344ae332461f4982392e940c4a4ce53e",
+      "title": "StackStorm",
+      "description": "Event Driven Operations and ChatOps platform for infrastructure management. Written in Python",
+      "url": "http://stackstorm.com/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b443ad2eaf0edc65922f15b3165b0b48",
+      "title": "zookeeper",
+      "description": "ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services",
+      "url": "http://zookeeper.apache.org/",
+      "category": "Cloud Orchestration",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c00873368fb179e05fff3728ec4cd20c",
+      "title": "git-annex assistant",
+      "description": "A synchronised folder on each of your OSX and Linux computers, Android devices, removable drives, NAS appliances, and cloud services",
+      "url": "http://git-annex.branchable.com/assistant/",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6375b9f420dcaaac200d581ad4c1301c",
+      "title": "nextCloud",
+      "description": "Provides access to your files via the web",
+      "url": "https://nextcloud.com",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "52001f905ea7aaa90973f8830e2ae0ff",
+      "title": "ownCloud",
+      "description": "Provides universal access to your files via the web, your computer or your mobile devices",
+      "url": "https://owncloud.org",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8650858b48664b32fc247f3fbc1599d9",
+      "title": "Seafile",
+      "description": "Another Open Source Cloud Storage solution",
+      "url": "http://seafile.com",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "24dc3397fcf9fc592e3f1e780b8c89ca",
+      "title": "SparkleShare",
+      "description": "Provides cloud storage and file synchronization services. By default, it uses Git as a storage backend",
+      "url": "http://sparkleshare.org/",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a79892cfd24e8a76226f5963d710cd64",
+      "title": "Swift",
+      "description": "A highly available, distributed, eventually consistent object/blob store",
+      "url": "http://docs.openstack.org/developer/swift/",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "30b959d972c83e1d4e29b7c5f2a68cf7",
+      "title": "Syncthing",
+      "description": "Open Source system for private, encrypted and authenticated distribution of data",
+      "url": "http://syncthing.net/",
+      "category": "Cloud Storage",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2bee5ba08a2ef2794ea29e498df4dfa6",
+      "title": "Gerrit",
+      "description": "Based on the Git version control, it facilitates software developers to review modifications to the source code and approve or reject those changes",
+      "url": "https://code.google.com/p/gerrit/",
+      "category": "Code Review",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e30fe039317f5f65030ecad5cda1ebd8",
+      "title": "Phabricator",
+      "description": "Code review tool build by facebook and used by WikiMedia, FB, dropbox etc. Comes with an integrated wiki, bug tracker, VC integration and a CLI tool called arcanist",
+      "url": "http://phabricator.org/",
+      "category": "Code Review",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6303a0ad1defe3aaad41e5964b22c311",
+      "title": "Review Board",
+      "description": "Web-based collaborative code review tool",
+      "url": "https://www.reviewboard.org/",
+      "category": "Code Review",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9886c6c56243e3c3c892f048af71e1f2",
+      "title": "Citadel/UX",
+      "description": "Collaboration suite (messaging and groupware) that is descended from the Citadel family of programs",
+      "url": "http://www.citadel.org/",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5a691eac22d922d40cbe9151c5c6a7ed",
+      "title": "EGroupware",
+      "description": "Groupware software written in PHP",
+      "url": "http://www.egroupware.org/",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "726911fd78e77c56030c3955f34ce87a",
+      "title": "Horde Groupware",
+      "description": "PHP based collaborative software suite that includes email, calendars, wikis, time tracking and file management",
+      "url": "http://www.horde.org/apps/groupware",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "937ef99e20787e9ee3618f09641937a5",
+      "title": "Kolab",
+      "description": "Another groupware suite",
+      "url": "https://www.kolab.org",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5a6867efdbdbbb01180f1a0292ada82f",
+      "title": "SOGo",
+      "description": "Collaborative software server with a focus on simplicity and scalability",
+      "url": "https://www.sogo.nu/",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "bba1809d61a33e8b9d02a2e3a3f9dc8f",
+      "title": "Zimbra",
+      "description": "Collaborative software suite, that includes an email server and web client",
+      "url": "https://www.zimbra.com/community/",
+      "category": "Collaborative Software",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "085a0e2656f9e632c42c37de9c9629ea",
+      "title": "Clusto",
+      "description": "Helps you keep track of your inventory, where it is, how it's connected, and provides an abstracted interface for interacting with the elements of the infrastructure",
+      "url": "https://github.com/clusto/clusto",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c83d9d7cb6a680b409ccedaab8420d05",
+      "title": "Collins",
+      "description": "At Tumblr, it's the infrastructure source of truth and knowledge",
+      "url": "http://tumblr.github.io/collins",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9a87a75fbe01a5e64efa17c9f019f66d",
+      "title": "i-doit",
+      "description": "Open Source IT Documentation and CMDB",
+      "url": "http://www.i-doit.org/",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "aced310bd8ae2b059785fe2d0849feea",
+      "title": "iTop",
+      "description": "Complete open source, ITIL, web based service management tool",
+      "url": "http://www.combodo.com/-Overview-.html",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c13394fa5d070de6b2e9ade862625809",
+      "title": "Ralph",
+      "description": "Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks",
+      "url": "https://github.com/allegro/ralph",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "99a68b14eba13ba8e5a44bad50d9d643",
+      "title": "Sicekit",
+      "description": "The systems & infrastructure encyclopaedia toolkit (based on MediaWiki)",
+      "url": "https://github.com/sicekit/sicekit",
+      "category": "Configuration Management Database",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "118e0d0aa50d5e08a57cfed2e7f6dd21",
+      "title": "Ansible",
+      "description": "It's written in Python and manages the nodes over SSH",
+      "url": "http://www.ansible.com/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d9065e1b9dc482de8891570bddffe9b6",
+      "title": "CFEngine",
+      "description": "Lightweight agent system. Configuration state is specified via a declarative language",
+      "url": "http://cfengine.com/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "37721732ff714b66d2d5635d10f75719",
+      "title": "Chef",
+      "description": "It's written in Ruby and Erlang and uses a pure-Ruby DSL",
+      "url": "http://www.opscode.com/chef/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5c2a6d78cf39ba4ff3583f31833be1d9",
+      "title": "mgmt",
+      "description": "Next generation config management written in Go",
+      "url": "https://github.com/purpleidea/mgmt",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c5022ae1ed785922a61c24d02692ca28",
+      "title": "Pallet",
+      "description": "Infrastructure definition, configuration and management via a Clojure DSL",
+      "url": "http://palletops.com/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a75e57fd0c9769f6b3b6905424505359",
+      "title": "Puppet",
+      "description": "It's written in Ruby and uses Puppet's declarative language or a Ruby DSL",
+      "url": "http://puppetlabs.com/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "dc7c11cff779e7bf8df3ea9c032eb330",
+      "title": "(R)?ex",
+      "description": "It's written in Perl and use plain Perl, over SSH without agent",
+      "url": "https://www.rexify.org/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2c4e8458eaf0dee1374a230d86d1a0ec",
+      "title": "Salt",
+      "description": "It's written in Python",
+      "url": "http://www.saltstack.com/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8447862d576a4b7f7c2bc75c3885b0b4",
+      "title": "Slaughter",
+      "description": "It's written in Perl",
+      "url": "http://steve.org.uk/Software/slaughter/",
+      "category": "Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "fa1199c5c65ddff8b18a2e17463f3004",
+      "title": "Buildbot",
+      "description": "Python-based toolkit for continuous integration",
+      "url": "http://buildbot.net/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e45c8083060061de99647b3cc3c6f29e",
+      "title": "Drone",
+      "description": "Continuous integration server built on Docker and configured using YAML files",
+      "url": "https://github.com/drone/drone",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e36a08ab62b8b10e7b4cc1705d733807",
+      "title": "GitLab CI",
+      "description": "Based off of ruby. They also provide GitLab, which manages git repositories",
+      "url": "https://www.gitlab.com/gitlab-ci/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "53806e7ceaea2bdce2cf8e667b3bd3d9",
+      "title": "Go",
+      "description": "Open source continuous delivery server",
+      "url": "http://www.go.cd/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "0561106cdae425514b218e6c4e3ef33a",
+      "title": "Jenkins",
+      "description": "An extendable open source continuous integration server",
+      "url": "http://jenkins-ci.org/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "765af39b5177366d90eb1c329835303c",
+      "title": "Concourse CI",
+      "description": "A pipeline-based CI system written in Go",
+      "url": "https://concourse.ci/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "22877823722ddcdad0d13c4d3db9ce48",
+      "title": "Spinnaker",
+      "description": "Open source, multi-cloud continuous delivery platform for releasing software changes",
+      "url": "http://www.spinnaker.io/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8fd85aae5cc92ba309e87d890ef7cf81",
+      "title": "TeamCity",
+      "description": "Powerful Continuous Integration out of the box",
+      "url": "https://www.jetbrains.com/teamcity/",
+      "category": "Continuous Integration & Continuous Deployment",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3a38fde20e145ffac20ac75487e32ac1",
+      "title": "Ajenti",
+      "description": "Control panel for Linux and BSD",
+      "url": "http://ajenti.org/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5d3b72f1ab79cdbed757cf5d5a7d38d2",
+      "title": "Cockpit",
+      "description": "New multi-server web interface for Linux servers written in C",
+      "url": "http://cockpit-project.org/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e4b3cfa146da184f93f4e0d305be7684",
+      "title": "Feathur",
+      "description": "VPS Provisioning and Management Software",
+      "url": "http://feathur.com",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "03df268717ce3af4b60a5290f610a36b",
+      "title": "Froxlor",
+      "description": "Easy to use panel for Linux with Nginx and PHP-FPM support",
+      "url": "http://www.froxlor.org/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1401a489f70e421f6ee2cd9a96b1ab5c",
+      "title": "ISPConfig",
+      "description": "Hosting control panel for Linux",
+      "url": "http://www.ispconfig.org",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "dd30c574576932ab106efd21564da1bd",
+      "title": "Sentora",
+      "description": "Control panel for Linux, BSD, and Windows based on ZPanel",
+      "url": "http://sentora.org/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b85191b4bf65b4dfa1df9d0e8546cca8",
+      "title": "VestaCP",
+      "description": "Hosting panel for Linux but with Nginx",
+      "url": "http://www.vestacp.com/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a948cee12f4ecc2aa5c0212bb3a098bd",
+      "title": "Virtualmin",
+      "description": "Control panel for Linux based on webmin",
+      "url": "http://www.virtualmin.com/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "32d823f74e0bd2166c63b4dd70c98976",
+      "title": "Webmin",
+      "description": "Linux server control panel",
+      "url": "http://www.webmin.com/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4f57f526d26483493cf525afa912da39",
+      "title": "ZPanel",
+      "description": "Control panel for Linux, BSD, and Windows",
+      "url": "http://www.zpanelcp.com/",
+      "category": "Control Panels",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e7ee737fa7f24aabe388303b37090a27",
+      "title": "Capistrano",
+      "description": "Deploy your application to any number of machines simultaneously, in sequence or as a rolling set via SSH (rake based)",
+      "url": "http://www.capistranorb.com",
+      "category": "Deployment Automation",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "41b5b31f09ecac51852db6d504942d3d",
+      "title": "Fabric",
+      "description": "Python library and cli tool for streamlining the use of SSH for application deployment or systems administration tasks",
+      "url": "http://www.fabfile.org/",
+      "category": "Deployment Automation",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "48d1d5bd4e9932b1c6d9c0122a653fc0",
+      "title": "Mina",
+      "description": "Really fast deployer and server automation tool (rake based)",
+      "url": "http://nadarei.co/mina/",
+      "category": "Deployment Automation",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3d7a238135423c6b35f072d9034d3122",
+      "title": "Rocketeer",
+      "description": "PHP task runner and deployment tool",
+      "url": "http://rocketeer.autopergamene.eu/",
+      "category": "Deployment Automation",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9373136962005e86384ccb16e361cd2b",
+      "title": "Vlad the Deployer",
+      "description": "Deployment automation (rake based)",
+      "url": "http://rubyhitsquad.com/Vlad_the_Deployer.html",
+      "category": "Deployment Automation",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "142259e69e94d5257d528630b3891c1b",
+      "title": "drawthe.net",
+      "description": "Draws network diagrams dynamically from a text file describing the placement, layout and icons",
+      "url": "http://go.drawthe.net/",
+      "category": "Diagramming",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3ad523e4df83d0532678b421bd65f910",
+      "title": "Ceph",
+      "description": "Distributed object store and file system",
+      "url": "http://ceph.com/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c15abbcd55f37922aca4dd51c7c06af6",
+      "title": "DRBD",
+      "description": "Distributed Replicated Block Device",
+      "url": "http://www.drbd.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "ed10b58316b271d2e46984370d85e1b1",
+      "title": "LeoFS",
+      "description": "Unstructured object/data storage and a highly available, distributed, eventually consistent storage system",
+      "url": "http://leo-project.net",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d37b51d324f68bbc06a02e876af793b0",
+      "title": "GlusterFS",
+      "description": "Scale-out network-attached storage file system",
+      "url": "http://www.gluster.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "0d86e7e7ab0cfd36fcc8fa6850789576",
+      "title": "HDFS",
+      "description": "Distributed, scalable, and portable file-system written in Java for the Hadoop framework",
+      "url": "http://hadoop.apache.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1964a2bfdcc6012b126da10c1c71ff19",
+      "title": "Lustre",
+      "description": "A type of parallel distributed file system, generally used for large-scale cluster computing",
+      "url": "http://lustre.opensfs.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f0e6c051e8d6fec87905d667a1e1d804",
+      "title": "MooseFS",
+      "description": "Fault tolerant, network distributed file system",
+      "url": "http://www.moosefs.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4cc81af16f99c63e666a0b99ee5c3dbf",
+      "title": "MogileFS",
+      "description": "Application level, network distributed file system",
+      "url": "http://mogilefs.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a66fb7325b9e06db8fbe29409e33cb48",
+      "title": "OpenAFS",
+      "description": "Distributed network file system with read-only replicas and multi-OS support",
+      "url": "http://www.openafs.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "ae90edc7e1e948da84f40d766f0e6570",
+      "title": "TahoeLAFS",
+      "description": "secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system",
+      "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "69ce4aed989aa18a7b0705d97aae84d8",
+      "title": "XtreemFS",
+      "description": "XtreemFS is a fault-tolerant distributed file system for all storage needs",
+      "url": "http://www.xtreemfs.org/",
+      "category": "Distributed Filesystems",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "be10e1d8ac44656b6d4051780b226f19",
+      "title": "Bind",
+      "description": "The most widely used name server software",
+      "url": "https://www.isc.org/downloads/bind/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1b6cd8f1d6ad7f5a11aa4f6f276a4f7d",
+      "title": "djbdns",
+      "description": "A collection of DNS applications, including tinydns",
+      "url": "http://cr.yp.to/djbdns.html",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3893da6757cebe85597f7e9e99573115",
+      "title": "Designate",
+      "description": "DNS REST API that support several DNS servers as its backend",
+      "url": "https://wiki.openstack.org/wiki/Designate",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1dc26b221cdb8264ed5c857108097cda",
+      "title": "dnsmasq",
+      "description": "A lightweight service providing DNS, DHCP and TFTP services to small-scale networks",
+      "url": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "85c82b0a6f9bcdd763345a4716203e7a",
+      "title": "Knot",
+      "description": "High performance authoritative-only DNS server",
+      "url": "https://www.knot-dns.cz/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "7fedba1000e71f71c7046c4cce02eddc",
+      "title": "NSD",
+      "description": "Authoritative only, high performance, simple name server",
+      "url": "http://www.nlnetlabs.nl/projects/nsd/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "0b92d9d155296ab7edc4bb6e3ef4243e",
+      "title": "PowerDNS",
+      "description": "DNS server with a variety of data storage back-ends and load balancing features",
+      "url": "https://www.powerdns.com/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b9a27f486cc9fe9e03298294a71e25e6",
+      "title": "Unbound",
+      "description": "Validating, recursive, and caching DNS resolver",
+      "url": "http://unbound.net/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5dc9a4b79122d84a703cbf9f2bb1e464",
+      "title": "Yadifa",
+      "description": "Lightweight authoritative Name Server with DNSSEC capabilities powering the .eu top-level domain",
+      "url": "http://yadifa.eu/",
+      "category": "DNS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a489e15fd4eae28afddc04c3768f67f9",
+      "title": "Atom",
+      "description": "A hackable text editor from GitHub",
+      "url": "https://atom.io/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d2b68cd6f3472604376aae4d50666ea3",
+      "title": "Brackets",
+      "description": "Open source code editor for web designers and front-end developers",
+      "url": "http://brackets.io/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "46df6de2a5f2925ddd7456d7c87e5580",
+      "title": "Eclipse",
+      "description": "IDE written in Java with an extensible plug-in system",
+      "url": "http://eclipse.org/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "670b258acede66c3fad8cff3179fad81",
+      "title": "Geany",
+      "description": "GTK2 text editor",
+      "url": "http://www.geany.org/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "95d2d73a9962fce6b60d60adcc6ea0b8",
+      "title": "GNU Emacs",
+      "description": "An extensible, customizable text editor-and more",
+      "url": "http://www.gnu.org/software/emacs/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e3e4782760563637cd45154a299f3ee3",
+      "title": "Haroopad",
+      "description": "Markdown editor with live preview",
+      "url": "http://pad.haroopress.com/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a53ebde8ac3482e6735f960728a84411",
+      "title": "ICEcoder",
+      "description": "Code editor awesomeness, built with common web languages",
+      "url": "http://icecoder.net",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "83d04eab092de9af5d3301cf40af2e31",
+      "title": "IntellijIDEA",
+      "description": "Capable and ergonomic IDE, written in Java, It has a lot of plug-ins",
+      "url": "https://github.com/JetBrains/intellij-community",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d11f6861ac1e86ed7a324dbb02e1e4e4",
+      "title": "jotgit",
+      "description": "Git-backed real-time collaborative code editing",
+      "url": "https://github.com/jdleesmiller/jotgit",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "323308cc867c0db60908477f51544481",
+      "title": "Light Table",
+      "description": "The next generation code editor",
+      "url": "http://www.lighttable.com/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "372f61526f4a66ab6e381fc5373aff36",
+      "title": "Lime",
+      "description": "Aims to provide an open source solution to Sublime Text",
+      "url": "http://limetext.org/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e61ac89a9d3986f24061227b092c1c35",
+      "title": "SciTE",
+      "description": "A SCIntilla based Text Editor",
+      "url": "http://www.scintilla.org/SciTE.html",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "36aaa49c1205b6ff9ca1cb425ee5058b",
+      "title": "TextMate",
+      "description": "A graphical text editor for OS X",
+      "url": "https://github.com/textmate/textmate/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5105338df757465c59cf9e386c23003d",
+      "title": "Vim",
+      "description": "A highly configurable text editor built to enable efficient editing",
+      "url": "http://www.vim.org",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "ff58e91fd1ae54fb07b546dca395d4d1",
+      "title": "Nano",
+      "description": "A popular text editor, by default comes with most Linux distributions",
+      "url": "http://https://www.nano-editor.org/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f8eaf51b1eee5faed4541765c47c170b",
+      "title": "Visual Studio Code",
+      "description": "Fast, hackable, multi-platform code editor from Microsoft",
+      "url": "https://code.visualstudio.com/",
+      "category": "Editors",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9d6e298f8e0456404b5ff08778445cf3",
+      "title": "GLPI",
+      "description": "Information Resource-Manager with an additional Administration Interface",
+      "url": "http://www.glpi-project.org/spip.php?lang=en",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "dc535f48b8a709526529db7067298b4d",
+      "title": "OCS Inventory NG",
+      "description": "Enables users to inventory their IT assets",
+      "url": "http://www.ocsinventory-ng.org/en/",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9cf3992c75f546671ef9f6f94d6bd68a",
+      "title": "Netbox",
+      "description": "IP address management (IPAM) and data center infrastructure management (DCIM) tool",
+      "url": "https://github.com/digitalocean/netbox",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d3cf08d19d01be9499f1a32f844da341",
+      "title": "RackTables",
+      "description": "Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration",
+      "url": "http://racktables.org/",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c13394fa5d070de6b2e9ade862625809",
+      "title": "Ralph",
+      "description": "Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks",
+      "url": "https://github.com/allegro/ralph",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "57fad3fc41ab80eff45c7bc4cf5a57fe",
+      "title": "Snipe IT",
+      "description": "Asset & license management software",
+      "url": "http://snipeitapp.com/",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4f57f944239adffbe07a4537d67dd4af",
+      "title": "OpenDCIM",
+      "description": "A web based Data Center Infrastructure Management application",
+      "url": "http://www.opendcim.org/",
+      "category": "IT Asset Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "eb9cdd605716b26ea500dd8ee81dd744",
+      "title": "389 Directory Server",
+      "description": "Developed by Red Hat",
+      "url": "http://port389.org",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "97841cff55673292c51bab148c468919",
+      "title": "Apache Directory Server",
+      "description": "Apache Software Foundation project written in Java",
+      "url": "http://directory.apache.org/",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8ea1665c70f5f7c35336e97956ed5f6c",
+      "title": "Fusion Directory",
+      "description": "Improve the Management of the services and the company directory based on OpenLDAP",
+      "url": "http://www.fusiondirectory.org",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8678444070360abf35664e7a8d7b6843",
+      "title": "OpenDJ",
+      "description": "Fork of OpenDS",
+      "url": "http://opendj.forgerock.org/",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "894e2c5b4e0613008773b91c79b98f0a",
+      "title": "OpenDS",
+      "description": "Another directory server written in Java",
+      "url": "https://opends.java.net/",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e21e4116d4939edb5b42ab89d3efad8e",
+      "title": "OpenLDAP",
+      "description": "Developed by the OpenLDAP Project",
+      "url": "http://openldap.org/",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1bcf737c5e28d0a120f694cc10e5d07d",
+      "title": "Apache Directory Studio",
+      "description": "The Eclipse-based LDAP browser and directory client",
+      "url": "https://directory.apache.org/studio/",
+      "category": "LDAP",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a93b565623f1c63b61d9cdbd969ab0e2",
+      "title": "Echofish",
+      "description": "A web based real-time event log aggregation, analysis, monitoring and management system",
+      "url": "http://www.echothrust.com/projects/echofish",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b5be1009cac79cc42d163a855dcbbe24",
+      "title": "Elasticsearch",
+      "description": "A Lucene Based Document store mainly used for log indexing, storage and analysis",
+      "url": "http://www.elasticsearch.org/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "162412cae4f7fed1af9c45024bbc2f35",
+      "title": "Fluentd",
+      "description": "Log Collector and Shipper",
+      "url": "http://www.fluentd.org/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e5b132da71582e110943c3ea52d880cd",
+      "title": "Flume",
+      "description": "Distributed log collection and aggregation system",
+      "url": "https://flume.apache.org/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "92754747aee6662380e6e4e33a552a79",
+      "title": "Graylog2",
+      "description": "Pluggable Log and Event Analysis Server with Alerting options",
+      "url": "http://graylog2.org/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a61342fbef8f26c47dccd72d50c68b3b",
+      "title": "Heka",
+      "description": "Stream processing system which may be used for log aggregation",
+      "url": "http://hekad.readthedocs.org/en/latest/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "cbf740a46198032cf7de343cd56ad2cb",
+      "title": "Kibana",
+      "description": "Visualize logs and time-stamped data",
+      "url": "http://www.elasticsearch.org/overview/kibana/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "852bd7528f2b07eb5cc0ea227d3aa4fa",
+      "title": "Logstash",
+      "description": "Tool for managing events and logs",
+      "url": "http://logstash.net/",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d499c910b15a2860eea9d1f736303650",
+      "title": "Octopussy",
+      "description": "Log Management Solution (Visualize / Alert / Report)",
+      "url": "http://www.octopussy.pm",
+      "category": "Log Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "72f925795d444f777a9cd943034f784c",
+      "title": "Courier IMAP/POP3",
+      "description": "Fast, scalable, enterprise IMAP and POP3 server",
+      "url": "http://www.courier-mta.org/imap/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9f357b9b08d40fc92423298865160693",
+      "title": "Cyrus IMAP/POP3",
+      "description": "Intended to be run on sealed servers, where normal users are not permitted to log in",
+      "url": "http://cyrusimap.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "7bec79eda99e1dcb61d99065de2ea34c",
+      "title": "Dovecot",
+      "description": "IMAP and POP3 server written primarily with security in mind",
+      "url": "http://www.dovecot.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b81c04b7cf9c7290ac81bd86b1d8d6cf",
+      "title": "Qpopper",
+      "description": "One of the oldest and most popular server implementations of POP3",
+      "url": "http://www.eudora.com/products/unsupported/qpopper/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "47526856a21afbc88b50eacb654e5743",
+      "title": "Exim",
+      "description": "Message transfer agent (MTA) developed at the University of Cambridge",
+      "url": "http://www.exim.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4c4b952484ae22d377b32b4caa7728c6",
+      "title": "Haraka",
+      "description": "A high-performance, pluginable SMTP server written in JavaScript",
+      "url": "http://haraka.github.io/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "cc4e1d00c03361a92c7bfd052915cfd9",
+      "title": "MailCatcher",
+      "description": "Ruby gem that deploys a simply SMTP MTA gateway that accepts all mail and displays in web interface. Useful for debugging or development",
+      "url": "http://mailcatcher.me/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "328a5f1a35f330c1e2b433cf09ec7e8e",
+      "title": "Maildrop",
+      "description": "Open Source disposable email SMTP server, also useful for development",
+      "url": "https://github.com/m242/maildrop",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "539935a15fcc5e7f3cd9719e209de160",
+      "title": "OpenSMTPD",
+      "description": "Secure SMTP server implementation from the OpenBSD project",
+      "url": "https://opensmtpd.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "81b070e89d67c9e5cdfdfc93cba27389",
+      "title": "Postfix",
+      "description": "Fast, easy to administer, and secure Sendmail replacement",
+      "url": "http://www.postfix.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "055446889a2d782dd14f071c36ecaeca",
+      "title": "Qmail",
+      "description": "Secure Sendmail replacement",
+      "url": "http://cr.yp.to/qmail.html",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a94ceb94259375bec2946ae7f6fa0e18",
+      "title": "Sendmail",
+      "description": "Message transfer agent (MTA)",
+      "url": "http://www.sendmail.com/sm/open_source/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "90bec3213ff476f0ef319f0deb20c8e3",
+      "title": "Mail-in-a-Box",
+      "description": "Take back control of your email with this easy-to-deploy mail server in a box",
+      "url": "https://mailinabox.email/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "477e4e9c50d15eb05015a2c8c3491e7e",
+      "title": "iRedMail",
+      "description": "Full-featured mail server solution based on Postfix and Dovecot",
+      "url": "http://www.iredmail.org/",
+      "category": "Mail Servers",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f16bc87e75590b8afe5073295bd1653e",
+      "title": "ejabberd",
+      "description": "XMPP instant messaging server written in Erlang/OTP",
+      "url": "http://www.ejabberd.im/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "7a459ef8253b5c00ddd3cbcdbe95c3ac",
+      "title": "Metronome IM",
+      "description": "Fork of Prosody IM",
+      "url": "http://www.lightwitch.org/metronome",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "046419d6564677e13c26334b94d41d79",
+      "title": "MongooseIM",
+      "description": "Fullstack real-time mobile messaging platform (XMPP+REST) in Erlang",
+      "url": "https://www.erlang-solutions.com/products/mongooseim.html",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "70b7044876e45b39e8efb42dff8888d6",
+      "title": "Openfire",
+      "description": "Real time collaboration (RTC) server",
+      "url": "http://www.igniterealtime.org/projects/openfire/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6e1ec55859bdabc10c542b8b9ad0bdd2",
+      "title": "Prosody IM",
+      "description": "XMPP server written in Lua",
+      "url": "http://prosody.im/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "3033915e5c4a1814eac567c778806271",
+      "title": "Tigase",
+      "description": "XMPP server implementation in Java",
+      "url": "https://projects.tigase.org/projects/tigase-server",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "316a144d2ea5c66a81ce2de6c9f8f5b2",
+      "title": "Candy",
+      "description": "Multi user XMPP client written in Javascript",
+      "url": "http://candy-chat.github.io/candy/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "21045ac4dc466e5a0c66853e414c58cf",
+      "title": "Kaiwa",
+      "description": "Web based chat client in the style of common paid alternatives",
+      "url": "http://getkaiwa.com/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4bdfbbacd664ff2d137eecd3d7dddd87",
+      "title": "Lets-Chat",
+      "description": "A self hosted chat suite written in Node",
+      "url": "http://sdelements.github.io/lets-chat/",
+      "category": "Messaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c54b8ab402b7a2bd6d63a4b9baf19f99",
+      "title": "Alerta",
+      "description": "Distributed, scaleable and flexible monitoring system",
+      "url": "https://github.com/guardian/alerta",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "62ce4474ad1df95bcebb8b93ea574ad2",
+      "title": "Canopsis",
+      "description": "Opensource Hypervision and Data Aggregation Software",
+      "url": "http://www.canopsis.org",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e03d59c1f028cdacd5025f003c3e70c2",
+      "title": "Cacti",
+      "description": "Web-based network monitoring and graphing tool",
+      "url": "http://www.cacti.net",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "431e488800b372f2ad8331bca8554a86",
+      "title": "Cabot",
+      "description": "Monitoring and alerts, similar to PagerDuty",
+      "url": "http://cabotapp.com/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1e043713e67583c3150ebb48aa6adea1",
+      "title": "Centreon",
+      "description": "IT infrastructure and application monitoring for service performance",
+      "url": "http://www.centreon.com",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "db312c212a52dad733f2053752a63514",
+      "title": "check_mk",
+      "description": "Collection of extensions for Nagios",
+      "url": "http://mathias-kettner.com/check_mk.html",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5368a8a80cdd3fd1b66ebea9e8953110",
+      "title": "Flapjack",
+      "description": "Monitoring notification routing & event processing system",
+      "url": "http://flapjack.io/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5a67c6b38c135998a6330fdb2c2ad05b",
+      "title": "Icinga",
+      "description": "Fork of Nagios",
+      "url": "https://www.icinga.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c5940fe88083327e600ca9a0b18eb757",
+      "title": "LibreNMS",
+      "description": "fork of Observium",
+      "url": "https://github.com/librenms/librenms/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "60647b6dd88f90fb6de9f1de392a0abd",
+      "title": "Monit",
+      "description": "Small Open Source utility for managing and monitoring Unix systems",
+      "url": "http://mmonit.com/monit/#home",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f13533f63519219108ef8d1573a5a0e4",
+      "title": "Munin",
+      "description": "Networked resource monitoring tool",
+      "url": "http://munin-monitoring.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5dce9081a31be851958835abd25d8c8b",
+      "title": "Naemon",
+      "description": "Network monitoring tool based on the Nagios 4 core with performance enhancements and new features",
+      "url": "http://www.naemon.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "758a6cf5ff502be2b6f5aa692d4145dd",
+      "title": "Nagios",
+      "description": "Computer system, network and infrastructure monitoring software application",
+      "url": "http://www.nagios.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "33f626ac5176d628312d134f907cde86",
+      "title": "Node-Bell",
+      "description": "Real-time anomalies detection for periodic time series, metrics monitor",
+      "url": "https://github.com/eleme/node-bell",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "01841a816d78f09af7daceea631d07ba",
+      "title": "Observium",
+      "description": "SNMP monitoring for servers and networking devices. Runs on linux",
+      "url": "http://www.observium.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1402cd6be366ab86b7ef664325494830",
+      "title": "Opsview",
+      "description": "Based on Nagios 4, Opsview Core is ideal for small IT and test environments",
+      "url": "http://www.opsview.com/solutions/core",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8f788ff479d290123a5a7830c4ae671b",
+      "title": "Riemann",
+      "description": "Flexible and fast events processor allowing complex events/metrics analysis",
+      "url": "http://riemann.io/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1516fcbcc7096881807db2783e848304",
+      "title": "Sensu",
+      "description": "Open source monitoring framework",
+      "url": "http://sensuapp.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "30717550393b380a79eaddcb3c38472e",
+      "title": "Sentry",
+      "description": "Application monitoring, event logging and aggregation",
+      "url": "https://getsentry.com/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "02bb9c97bd1dd237d223f282337152b7",
+      "title": "Serverstats",
+      "description": "A simple tool for creating graphs using rrdtool. ([source on github](https://github.com/ddanier/serverstats))",
+      "url": "https://sourceforge.net/projects/serverstats.berlios/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "eb1c165f86c9348de0836f24c306fed8",
+      "title": "Seyren",
+      "description": "An alerting dashboard for Graphite",
+      "url": "https://github.com/scobal/seyren",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f4e77f8dbb405074d0ec78becbf08088",
+      "title": "Shinken",
+      "description": "Another monitoring framework",
+      "url": "http://www.shinken-monitoring.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "23564954581560326d225eaff16884e5",
+      "title": "Xymon",
+      "description": "Network monitoring inspired by Big Brother",
+      "url": "http://www.xymon.com/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "bcc4e446f0835715c6916157da072519",
+      "title": "Zabbix",
+      "description": "Enterprise-class software for monitoring of networks and applications",
+      "url": "http://www.zabbix.com/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8bd507b60aec690167cbd0e3dee70b7a",
+      "title": "Zenoss",
+      "description": "Application, server, and network management platform based on Zope",
+      "url": "http://community.zenoss.org",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "168ec8eb4c439c04ec18e0a56c555833",
+      "title": "Adagios",
+      "description": "Web based Nagios configuration interface",
+      "url": "http://adagios.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a8909a34e60565cc43eab9a8149b6c00",
+      "title": "Dash",
+      "description": "A low-overhead monitoring web dashboard for a GNU/Linux machine",
+      "url": "https://github.com/afaqurk/linux-dash",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2490598b7b289ab91ae1c514b744f062",
+      "title": "Thruk",
+      "description": "Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken",
+      "url": "http://www.thruk.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2047e40fd996283dbdf45ad0448b0f2b",
+      "title": "Uchiwa",
+      "description": "Simple dashboard for the Sensu monitoring framework",
+      "url": "https://uchiwa.io",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "8fe9e4b985bbf9f8f95602f911aa6ac0",
+      "title": "OMD",
+      "description": "The Open Monitoring Distribution",
+      "url": "http://omdistro.org/",
+      "category": "Monitoring",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5986982dc3ce84c6c3ba18752125677b",
+      "title": "Collectd",
+      "description": "System statistic collection daemon",
+      "url": "http://collectd.org/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "84d1dd2239e9e94242f15c38521e1970",
+      "title": "Collectl",
+      "description": "High precision system performance metrics collecting tool",
+      "url": "http://collectl.sourceforge.net/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "5ac48b3d5367e69aec074a2a096906e7",
+      "title": "~~dashing~~",
+      "description": "__No Longer Maintained__ - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms",
+      "url": "http://dashing.io/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "89044d5a0250580f83df8577fa790b65",
+      "title": "Smashing",
+      "description": "Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms. Fork of Dashing",
+      "url": "https://github.com/Smashing/smashing",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "666fff41a725abe5c01fb53032fe8b15",
+      "title": "Diamond",
+      "description": "Python based statistic collection daemon",
+      "url": "https://github.com/BrightcoveOS/Diamond",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "54c97f0eefb42378b4a41853bfac5951",
+      "title": "Facette",
+      "description": "Time series data visualization and graphing software written in Go",
+      "url": "http://facette.io",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "7f5eb0fe07ef4f743da6b031a86765a3",
+      "title": "Freeboard",
+      "description": "A damn-sexy front-end real-time dashboard. Transforms raw JSON into delicious UI",
+      "url": "https://github.com/Freeboard/freeboard",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "bece2e6b4f7845400c8142c0405f8292",
+      "title": "Ganglia",
+      "description": "High performance, scalable RRD based monitoring for grids and/or clusters of servers. Compatible with Graphite using a single collection process",
+      "url": "http://ganglia.sourceforge.net/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a2d853482c2e9fcfbff236459e201e8a",
+      "title": "Grafana",
+      "description": "A Graphite & InfluxDB Dashboard and Graph Editor",
+      "url": "http://grafana.org/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "81a57d766195950e0a56ffbcd5b7f89a",
+      "title": "Graphite",
+      "description": "Open source scalable graphing server",
+      "url": "http://graphite.readthedocs.org/en/latest/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9a52dabce37a32a17137292d5dc6e828",
+      "title": "InfluxDB",
+      "description": "Open source distributed time series database with no external dependencies",
+      "url": "http://influxdb.com/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4a71b5ad85c53f59547eb8b5a0d58b60",
+      "title": "KairosDB",
+      "description": "Fast distributed scalable time series database, fork of OpenTSDB 1.x",
+      "url": "https://code.google.com/p/kairosdb/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "561555a866e7ef5f929d7a3af0284827",
+      "title": "NetData",
+      "description": "Distributed real-time performance and health monitoring",
+      "url": "http://my-netdata.io",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c2b65a3f3cde42c2ed25555f95c22c30",
+      "title": "OpenTSDB",
+      "description": "Store and server massive amounts of time series data without losing granularity",
+      "url": "http://opentsdb.net/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "73292106e74e8857fbb7a0d3700f8601",
+      "title": "Packetbeat",
+      "description": "Captures network traffic and displays it in a custom Kibana dashboard for easy viewing",
+      "url": "http://packetbeat.com/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "cecb1a820e7e77d301316553efabe34f",
+      "title": "Prometheus",
+      "description": "Service monitoring system and time series database",
+      "url": "http://prometheus.io/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c10e6247a7c407cbe8e709e6bd3654a2",
+      "title": "RRDtool",
+      "description": "Open source industry standard, high performance data logging and graphing system for time series data",
+      "url": "http://oss.oetiker.ch/rrdtool/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "2ab5021b922cabac4a5e41b22f75530d",
+      "title": "Statsd",
+      "description": "Application statistic listener",
+      "url": "https://github.com/etsy/statsd/",
+      "category": "Metric & Metric Collection",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6198ec6602338ff902f46c631ab458df",
+      "title": "GestióIP",
+      "description": "An automated web based IPv4/IPv6 IP Address Management tool",
+      "url": "http://www.gestioip.net/",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b9dbd4aa982b63ed18f6abc0fe68e19f",
+      "title": "NOC Project",
+      "description": "Scalable, high-performance and open-source [OSS](http://en.wikipedia.org/wiki/Operations_support_system) system for ISP, service and content providers",
+      "url": "http://nocproject.org/",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9cf3992c75f546671ef9f6f94d6bd68a",
+      "title": "Netbox",
+      "description": "IP address management (IPAM) and data center infrastructure management (DCIM) tool",
+      "url": "https://github.com/digitalocean/netbox",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "75200ce33c6aca07a449e0f8b89c6190",
+      "title": "Oxidized",
+      "description": "A modern take on network device configuration monitoring with web interface and GIT storage",
+      "url": "https://github.com/ytti/oxidized",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "fb0082986c29362397dc65b10de97976",
+      "title": "phpIPAM",
+      "description": "Open source IP address management with [PowerDNS](https://www.powerdns.com/) integration",
+      "url": "http://phpipam.net/",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "81508beffc24f0e810573daa09ab2408",
+      "title": "RANCID",
+      "description": "Monitors network device's configuration and maintain history of changes",
+      "url": "http://www.shrubbery.net/rancid/",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "fff98302f91c702b9afee23b7f41e997",
+      "title": "rConfig",
+      "description": "Another network device configuration management tool",
+      "url": "http://www.rconfig.com/",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e4a8712371a55196863c34ea2c6d7c08",
+      "title": "trigger",
+      "description": "Robust network automation toolkit written in Python",
+      "url": "https://github.com/trigger/trigger",
+      "category": "Network Configuration Management",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "ed2bd8325cddbade1d60abbc4e1d1456",
+      "title": "DadaMail",
+      "description": "Mailing List Manager, written in Perl",
+      "url": "http://dadamailproject.com/",
+      "category": "Newsletters",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a7f07569c43b4c3322b929e114e2855d",
+      "title": "phpList",
+      "description": "Newsletter manager written in PHP",
+      "url": "http://www.phplist.com/",
+      "category": "Newsletters",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "a19436c80ceb4a6c0bffe3bd76b7c565",
+      "title": "Apache HBase",
+      "description": "Hadoop database, a distributed, big data store",
+      "url": "http://hbase.apache.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "35bb8f012f05e2dae3cda13dc29fdbda",
+      "title": "Cassandra",
+      "description": "Distributed DBMS designed to handle large amounts of data across many servers",
+      "url": "http://cassandra.apache.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "97ae4bf3ec11a58371dacb03553d4d33",
+      "title": "Hypertable",
+      "description": "C++ based BigTable-like DBMS, communicates through Thrift and runs either as stand-alone or on distributed FS such as Hadoop",
+      "url": "http://hypertable.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "86a8e5160c9079368276b84cf478492f",
+      "title": "CouchDB",
+      "description": "Ease of use, with multi-master replication document-oriented database system",
+      "url": "http://couchdb.apache.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "20a28d09de40c551d710a3d5f10f80ee",
+      "title": "ElasticSearch",
+      "description": "Java based database, popular with log aggregation, and email archiving projects",
+      "url": "http://www.elasticsearch.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "9ce6620214c9d492d562e7bf8e83be41",
+      "title": "MongoDB",
+      "description": "Another document-oriented database system",
+      "url": "http://www.mongodb.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "00ce080acbbcc4b0a59765c6756d5422",
+      "title": "RavenDB",
+      "description": "Document based database with ACID/Transactional features",
+      "url": "http://ravendb.net/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f19398ef556efa48c9cb1345baf6c093",
+      "title": "RethinkDB",
+      "description": "Open source distributed document store database, focuses on JSON",
+      "url": "http://www.rethinkdb.com/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "83faf0aa30c4a84f55543f7f656367ab",
+      "title": "FlockDB",
+      "description": "Twitter's distributed, fault-tolerant graph database",
+      "url": "https://github.com/twitter/flockdb",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "074ab7a69da83960b76fc2004429c0a5",
+      "title": "Neo4j",
+      "description": "Open source graph database",
+      "url": "http://www.neo4j.org/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "b649343ebed330cea7405a3d39351fbb",
+      "title": "Couchbase",
+      "description": "In-memory, replicated, peristent key/value datastore",
+      "url": "http://www.couchbase.com/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "82a91e936ba8985d57523e55c1beb19d",
+      "title": "LevelDB",
+      "description": "Google's high performance key/value database",
+      "url": "https://github.com/google/leveldb",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "01f4576c5e0c70aa4e1f06baa0fe2653",
+      "title": "Redis",
+      "description": "Networked, in-memory, key-value data store with optional durability",
+      "url": "http://redis.io/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "4ff80d02d2d06a28a405d37fbb12423f",
+      "title": "Riak",
+      "description": "Another fault-tolerant key-value NoSQL database",
+      "url": "http://basho.com/riak/",
+      "category": "NoSQL",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "0e1e79a00a512ce765b8b3216ed6ccce",
+      "title": "fpm",
+      "description": "Versatile multi format package creator",
+      "url": "https://github.com/jordansissel/fpm",
+      "category": "Packaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "f10db682df8f13bfa05ba3b83b167ef7",
+      "title": "omnibus-ruby",
+      "description": "Full stack, cross distro packaging software (Ruby)",
+      "url": "https://github.com/opscode/omnibus-ruby",
+      "category": "Packaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "d24581b5aef874acb4055cf506f9381a",
+      "title": "packman",
+      "description": "Full stack, cross distro packaging software (Python)",
+      "url": "http://packman.readthedocs.org",
+      "category": "Packaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e051059c1b5ea7eb0886181b109ec6d0",
+      "title": "tito",
+      "description": "Builds RPMs for git-based projects",
+      "url": "https://github.com/dgoodwin/tito",
+      "category": "Packaging",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1f3a48f21924dde281dea9534413ab8d",
+      "title": "ActiveMQ",
+      "description": "An open source message broker written in Java together with a full JMS client",
+      "url": "http://activemq.apache.org/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c921787f5d91eb3979b94f8637f10704",
+      "title": "BeanstalkD",
+      "description": "A simple, fast work queue",
+      "url": "http://kr.github.io/beanstalkd/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "41a8b5c6c27a3d34c74eb8c75e04fad7",
+      "title": "Gearman",
+      "description": "Fast multi-language queuing/job processing platform",
+      "url": "http://gearman.org/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "92cc04f2c8d297d9e86f984e02661f28",
+      "title": "Kafka",
+      "description": "A high-throughput distributed messaging system",
+      "url": "http://kafka.apache.org/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "91984a42f6c302906a22451cf741f363",
+      "title": "NSQ",
+      "description": "A realtime distributed messaging platform",
+      "url": "http://nsq.io/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "73e70e2dc59515b3f369aa391427d657",
+      "title": "RabbitMQ",
+      "description": "Robust, fully featured, cross distro queuing system",
+      "url": "http://www.rabbitmq.com/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "e75e596a39d37562d709117cf34295bd",
+      "title": "ZeroMQ",
+      "description": "High-performance asynchronous messaging library",
+      "url": "http://zeromq.org/",
+      "category": "Queuing",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "1bce2871eafcc37e7f1915c122a4f645",
+      "title": "Firebird",
+      "description": "True universal open source database",
+      "url": "http://www.firebirdsql.org/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "c7f5e700e144de02a76d76668695065a",
+      "title": "Galera",
+      "description": "Galera Cluster for MySQL is an easy-to-use high-availability solution with high system up-time, no data loss, and scalability for future growth",
+      "url": "http://galeracluster.com/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "691cd2edd48e613aedf2c13bfd76b5cb",
+      "title": "MariaDB",
+      "description": "Community-developed fork of the MySQL",
+      "url": "https://mariadb.org/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "7a547a0345debe931975db086e7cfeee",
+      "title": "MySQL",
+      "description": "Most popular RDBMS server",
+      "url": "http://dev.mysql.com/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "39705d399cfc7196e8be9bcba1ae1f9e",
+      "title": "Percona Server",
+      "description": "Enhanced, drop-in MySQL replacement",
+      "url": "http://www.percona.com/software",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "6f34d57af973d6e5ba4da5307f574c9a",
+      "title": "PostgreSQL",
+      "description": "Object-relational database management system (ORDBMS)",
+      "url": "http://www.postgresql.org/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.006Z",
+      "isNew": false
+    },
+    {
+      "id": "21e5468ff7bf0756cf0e96adc6dbb6d9",
+      "title": "PostgreSQL-XL",
+      "description": "Scalable Open Source PostgreSQL-based database cluster",
+      "url": "http://www.postgres-xl.org/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "11964a9f7e92fe997691565c24aef845",
+      "title": "SQLite",
+      "description": "Library that implements a self-contained, serverless, zero-configuration, transactional SQL DBS",
+      "url": "http://sqlite.org/",
+      "category": "RDBMS",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "c8a19486da6198e255415615f4192a0f",
+      "title": "Blackbox",
+      "description": "Safely store secrets in Git/Mercurial. Provides tooling to automatically encrypt secrets like passwords",
+      "url": "https://github.com/StackExchange/blackbox",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "7366985badd0bd7371ec25e8a2d52e69",
+      "title": "Denyhosts",
+      "description": "Thwart SSH dictionary based attacks and brute force attacks",
+      "url": "http://denyhosts.sourceforge.net/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b458e949e80a207212694ee439a73c4d",
+      "title": "Fail2Ban",
+      "description": "Scans log files and takes action on IPs that show malicious behavior",
+      "url": "http://www.fail2ban.org/wiki/index.php/Main_Page",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "c41c72948003850a2aeebd5583ef47ac",
+      "title": "fwknop",
+      "description": "Protects ports via Single Packet Authorization in your firewall",
+      "url": "https://www.cipherdyne.org/fwknop/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "4dc42aa4162f0962dc6b090ac4c2c2c5",
+      "title": "Glastopf",
+      "description": "A low-interaction web application honeypot to emulate vulnerabilities and gather attack data",
+      "url": "http://glastopf.org/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "84925af62ed81ebc71c246d34ecaf306",
+      "title": "Kippo",
+      "description": "A medium-interaction SSH honeypot, mostly used as a standalone SSH daemon with a configurable Filesystem sandbox",
+      "url": "https://github.com/desaster/kippo",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "d5b240ee89847ef4ccf5bd1033bb4857",
+      "title": "OSSEC",
+      "description": "OSSEC is a HIDS that performs log analysis, FIM, rootkit detection, and much more",
+      "url": "http://ossec.net",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "342ebc84344ea3f12fbc2e3f51d7a2e4",
+      "title": "OSQuery",
+      "description": "Query your servers status and info using a SQL like interface",
+      "url": "https://osquery.io/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "bb9476375fab2513c55cab23e55ba2a1",
+      "title": "pfSense",
+      "description": "Firewall and Router FreeBSD distribution",
+      "url": "https://www.pfsense.org/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "5e0ffd7c219879e3d4444bd83ab4de32",
+      "title": "Snort",
+      "description": "Snort is a free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS) created by Martin Roesch in 1998",
+      "url": "https://www.snort.org/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "58716cb67a6534ee31cc42870f7e6594",
+      "title": "SpamAssassin",
+      "description": "A powerful and popular email spam filter employing a variety of detection technique",
+      "url": "https://spamassassin.apache.org/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "7307c2566a54afdda127a7ead2be1dad",
+      "title": "BounCA",
+      "description": "BounCA is a personal SSL / Certificate Authority Key management tool. Create self-signed SSL certificates via your browser.",
+      "url": "https://bounca.org/",
+      "category": "Security",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false,
+      "sourceCodeUrl": "https://github.com/repleo/bounca",
+      "license": "Apache",
+      "techStack": "Python"
+    },
+    {
+      "id": "9fb0e5f08e7477541d93bc6e76aab9c0",
+      "title": "Consul",
+      "description": "Consul is a tool for service discovery, monitoring and configuration",
+      "url": "http://www.consul.io/",
+      "category": "Service Discovery",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "66a7098a088d512456cb87a3554443f7",
+      "title": "Doozerd",
+      "description": "Doozer is a highly-available, completely consistent store for small amounts of extremely important data",
+      "url": "https://github.com/ha/doozerd",
+      "category": "Service Discovery",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "f9c7730b4b992b348a0dc26adfaec6b4",
+      "title": "ZooKeeper",
+      "description": "ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services",
+      "url": "http://zookeeper.apache.org/",
+      "category": "Service Discovery",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ebc96791a9be02cd99eb294117eb0024",
+      "title": "Bitnami",
+      "description": "Produces open source installers or software packages for web applications and development stacks as well as virtual appliances",
+      "url": "https://bitnami.com/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "18bcfff5ea4ce209cb16cb33301d5c3c",
+      "title": "Docker",
+      "description": "Open platform for developers and sysadmins to build, ship, and run distributed applications",
+      "url": "http://www.docker.com/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "65a1d63e4f67901df492efa563847849",
+      "title": "LXC",
+      "description": "Userspace interface for the Linux kernel containment features",
+      "url": "https://linuxcontainers.org/lxc/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e0b430aa5aef4fbd4af2c82a07b178ab",
+      "title": "LXD",
+      "description": "LXD is a container \"hypervisor\"",
+      "url": "https://linuxcontainers.org/lxd/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "bdad57dad471434c47b94055c17cfc99",
+      "title": "OpenVZ",
+      "description": "Container-based virtualization for Linux",
+      "url": "http://openvz.org",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "3c5634ebdbcfcd16f4c191c9401b9e02",
+      "title": "Docker Compose",
+      "description": "Fast, isolated development environments using Docker",
+      "url": "https://docs.docker.com/compose/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "1bc2cc28df743a452cde265fd1ec2f9b",
+      "title": "Singularity",
+      "description": "Flexible containers without root",
+      "url": "http://singularity.lbl.gov/",
+      "category": "Software Containers",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "3b616a0832ad197b8bd3d4cbcabf7f1c",
+      "title": "Advanced SSH config",
+      "description": "Enhances ssh_config file capabilities, completely transparent",
+      "url": "https://pypi.python.org/pypi/advanced-ssh-config/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "a81614375038987129ea7d71a70ef766",
+      "title": "autossh",
+      "description": "Automatically respawn ssh session after network interruption",
+      "url": "http://www.harding.motd.ca/autossh/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "23e21ace9598b87adf8673d47710f432",
+      "title": "Cluster SSH",
+      "description": "Controls a number of xterm windows via a single graphical console",
+      "url": "http://sourceforge.net/projects/clusterssh/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "57f3d6c0faaf610c2dc8b96b3717a53c",
+      "title": "DSH",
+      "description": "Dancer's shell / distributed shell - Wrapper for executing multiple remote shell commands from one command line",
+      "url": "http://www.netfort.gr.jp/~dancer/software/dsh.html.en",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b01e5023c0ee0cba31b55c96e030e6b6",
+      "title": "Mosh",
+      "description": "The mobile shell",
+      "url": "http://mosh.mit.edu/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "8cc1db6660abdd206d64621097ceda14",
+      "title": "parallel-ssh",
+      "description": "Provides parallel versions of OpenSSH and related tools",
+      "url": "http://code.google.com/p/parallel-ssh/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "932ee99b73c095f5e220ed0b31b0c902",
+      "title": "pdsh",
+      "description": "Pdsh is a high-performance, parallel remote shell utility",
+      "url": "https://code.google.com/p/pdsh/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "5f7d45f262a404eb06c7cc2d46579142",
+      "title": "SSH Power Tool",
+      "description": "Execute commands and upload files to many servers simultaneously without using pre-shared keys",
+      "url": "http://code.google.com/p/sshpt/",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "13393046c4177cbff5fedb328331d6f9",
+      "title": "sshrc",
+      "description": "sources ~/.sshrc on your local computer after logging in remotely",
+      "url": "https://github.com/Russell91/sshrc",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "6203cc87cbd5fd06241e7e70d077e8f5",
+      "title": "stormssh",
+      "description": "A command line tool to manage SSH connections",
+      "url": "http://stormssh.readthedocs.org",
+      "category": "SSH",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "21063da10baa9c19d51e62c043be9a1e",
+      "title": "Analog",
+      "description": "Logfile Analyser",
+      "url": "http://www.web42.com/analog/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "9c4682d7650737be1eb8deec1339bbc0",
+      "title": "AWStats",
+      "description": "Generates web, streaming, ftp or mail server statistics graphically",
+      "url": "http://www.awstats.org/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "404b63566b42f42ca0a0eed285b6e0d5",
+      "title": "GoAccess",
+      "description": "Real-time web log analyzer and interactive viewer that runs in a terminal",
+      "url": "http://goaccess.io/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b07249720a9843618d917fa4bba3525f",
+      "title": "Open Web Analytics",
+      "description": "Add web analytics to websites using JS, PHP or REST APIs",
+      "url": "http://www.openwebanalytics.com/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "cf0802d6106b937af012975e61fb1f17",
+      "title": "Piwik",
+      "description": "Web analytics application",
+      "url": "http://piwik.org/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "eda9c4d15d5d43cdc307925c0f51c017",
+      "title": "Webalizer",
+      "description": "Fast, free web server log file analysis program",
+      "url": "http://www.webalizer.org/",
+      "category": "Statistics",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "6b7422ef248056ac207d448c3f497dff",
+      "title": "Cachet",
+      "description": "An open source status page system written in PHP",
+      "url": "https://cachethq.io",
+      "category": "Status Pages",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "77d8ccb08e0ae5663f212c8e275fe299",
+      "title": "Bugzilla",
+      "description": "General-purpose bugtracker and testing tool originally developed and used by the Mozilla project",
+      "url": "http://www.bugzilla.org/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "44e933c321eed78987a72cadbb6f83b8",
+      "title": "Cerb",
+      "description": "Group-based e-mail management project",
+      "url": "http://www.cerberusweb.com/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "201d3b11076dd1de54dd6644cb8a6b51",
+      "title": "Flyspray",
+      "description": "Web-based bug tracking system written in PHP",
+      "url": "http://flyspray.org",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ef7078cbd4e1f6e31b485d32fd6ddb4b",
+      "title": "MantisBT",
+      "description": "Web-based bug tracking system",
+      "url": "http://www.mantisbt.org/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "0846606ce40d71bcae2e0c126e5f3b9d",
+      "title": "osTicket",
+      "description": "Simple support ticket system",
+      "url": "http://osticket.com/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "84de37d5095df1ff1f3801e3d580b5d8",
+      "title": "OTRS",
+      "description": "Trouble ticket system for assigning tickets to incoming queries and tracking further communications",
+      "url": "http://www.otrs.com/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "1286e5c7198ce512f32b77f623b93f98",
+      "title": "Redmine",
+      "description": "Open source project management/ticketing web application written in Ruby",
+      "url": "http://www.redmine.org/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "7dd6b05a60396f05fd36cff73ed152ac",
+      "title": "Request Tracker",
+      "description": "Ticket-tracking system written in Perl",
+      "url": "http://www.bestpractical.com/rt/",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "6f0d387fe631f0fe4c1f1895d2327b3b",
+      "title": "TheBugGenie",
+      "description": "Ticket system with extensive user rights system",
+      "url": "http://www.thebuggenie.com",
+      "category": "Ticketing systems",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ca8107d1e3ae6e28f9266f1f4a5c2c2e",
+      "title": "mitmproxy",
+      "description": "A Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems",
+      "url": "http://mitmproxy.org/",
+      "category": "Troubleshooting",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "65e6917433c86ae9fe5e4f247de0a935",
+      "title": "Sysdig",
+      "description": "Capture system state and activity from a running Linux instance, then save, filter and analyze",
+      "url": "http://www.sysdig.org/",
+      "category": "Troubleshooting",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "89f8d6ef5585b9cf11c1fd6bdb3fb5b7",
+      "title": "Wireshark",
+      "description": "The world's foremost network protocol analyzer",
+      "url": "http://www.wireshark.org/",
+      "category": "Troubleshooting",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "8f5a330aeba6bc6a917749f9880c8e43",
+      "title": "Trinity Rescue Kit",
+      "description": "Linux Live CD for general computer troubleshooting",
+      "url": "http://trinityhome.org",
+      "category": "Troubleshooting",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "0bd93df40c6cb369e5c17e713ef73e50",
+      "title": "ChiliProject",
+      "description": "Fork of Redmine",
+      "url": "https://www.chiliproject.org",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "adc449721c8c6a009ba90e7193ef9ec6",
+      "title": "GitBucket",
+      "description": "Clone of GitHub written in Scala; single jar install",
+      "url": "https://github.com/takezoe/gitbucket",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "d264c3b677ec7d7c26d286faba89a759",
+      "title": "GitLab",
+      "description": "Clone of GitHub written in Ruby",
+      "url": "https://www.gitlab.com/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "bb8f94ed988686037593db66b37278f0",
+      "title": "Gogs",
+      "description": "Self-hosted Git service written in Go",
+      "url": "http://gogs.io/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "d74be19afd1d7a771433854ff99f9eb5",
+      "title": "OpenProject",
+      "description": "Project collaboration with open source",
+      "url": "https://www.openproject.org",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e30fe039317f5f65030ecad5cda1ebd8",
+      "title": "Phabricator",
+      "description": "Written in PHP",
+      "url": "http://phabricator.org/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "1286e5c7198ce512f32b77f623b93f98",
+      "title": "Redmine",
+      "description": "Written in ruby on rails",
+      "url": "http://www.redmine.org/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "624363453448ce0176685d4e372c96e7",
+      "title": "Taiga",
+      "description": "Agile, Free, Open Source Project Management Tool based on the Kanban and Scrum methods",
+      "url": "https://taiga.io/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "abdd84d9fc6f25ef59f1902652931fca",
+      "title": "The Bug Genie",
+      "description": "Written in PHP",
+      "url": "http://www.thebuggenie.com/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b9f8fdd2781375ec62616b0e516d3d60",
+      "title": "Trac",
+      "description": "Written in python",
+      "url": "http://trac.edgewall.org/",
+      "category": "Project Management",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "028c0b49f0f3206a8101e7942e2fe398",
+      "title": "Fossil",
+      "description": "Distributed version control with built-in wiki and bug tracking",
+      "url": "http://www.fossil-scm.org/",
+      "category": "Version control",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "4a6108f6dc19510ac4f26c44c8cfdc97",
+      "title": "Git",
+      "description": "Distributed revision control and source code management (SCM) with an emphasis on speed",
+      "url": "http://git-scm.com/",
+      "category": "Version control",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "8869fc2c4d54725ad60e26bd67f0d212",
+      "title": "GNU Bazaar",
+      "description": "Distributed revision control system sponsored by Canonical",
+      "url": "http://bazaar.canonical.com/",
+      "category": "Version control",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "8cffd60a6563f75fda314640d09600ce",
+      "title": "Mercurial",
+      "description": "Another distributed revision control",
+      "url": "http://mercurial.selenic.com/",
+      "category": "Version control",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "17c8a9fee152e32e3ff591eb7aae88e5",
+      "title": "Subversion",
+      "description": "Client-server revision control system",
+      "url": "http://subversion.apache.org/",
+      "category": "Version control",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "51b6b74f2b6b617bd888276f4a778269",
+      "title": "Archipel",
+      "description": "XMPP based virtualization management platform",
+      "url": "http://archipelproject.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "25cf2fff9ba489e294294791bae7cbb4",
+      "title": "Ganeti",
+      "description": "Cluster virtual server management software tool built on top of KVM and Xen",
+      "url": "https://code.google.com/p/ganeti/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "7b28718f8e20987b26b2907c27f3e8a6",
+      "title": "KVM",
+      "description": "Linux kernel virtualization infrastructure",
+      "url": "http://www.linux-kvm.org",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b330d929958097b288fbb32fed025193",
+      "title": "OpenNebula",
+      "description": "Flexible enterprise cloud made simple",
+      "url": "http://opennebula.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "41fa29f2d33ec100fa6ba0ea0f0d6e79",
+      "title": "oVirt",
+      "description": "Manages virtual machines, storage and virtual networks",
+      "url": "http://www.ovirt.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "6e67edb05804f81c73f93273c918b61a",
+      "title": "Packer",
+      "description": "A tool for creating identical machine images for multiple platforms from a single source configuration",
+      "url": "http://www.packer.io/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "3befb54d18388b40fdba798929257ced",
+      "title": "Proxmox VE",
+      "description": "Complete open source virtualization management solution",
+      "url": "https://www.proxmox.com/proxmox-ve",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "27db8afdddd6e354c9946f0ca4453eec",
+      "title": "QEMU",
+      "description": "QEMU is a generic and open source machine emulator and virtualizer",
+      "url": "http://www.qemu.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "a049248816bed4a59394c9c536ef14a2",
+      "title": "Vagrant",
+      "description": "Tool for building complete development environments",
+      "url": "https://www.vagrantup.com/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "d8ab9c77222bf2bf77515b49e3d1f296",
+      "title": "VirtualBox",
+      "description": "Virtualization product from Oracle Corporation",
+      "url": "https://www.virtualbox.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "f63635bb8c0f03e43641ae9a48df166d",
+      "title": "Xen",
+      "description": "Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures",
+      "url": "http://www.xenproject.org/",
+      "category": "Virtualization",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "5e4cc2e539bd4c993738c2fc4b4e0cb3",
+      "title": "OpenVPN",
+      "description": "Uses a custom security protocol that utilizes SSL/TLS for key exchange",
+      "url": "https://community.openvpn.net",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "870251e27b8b496d34771614ade20b58",
+      "title": "Pritunl",
+      "description": "OpenVPN based solution. Easy to set up",
+      "url": "http://pritunl.com/",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e05d0de174d04689cf880b9b1829be91",
+      "title": "SoftEther",
+      "description": "Multi-protocol software VPN with advanced features",
+      "url": "https://www.softether.org/",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ce21788c2f2286c1f7d13c15617e3cd5",
+      "title": "sshuttle",
+      "description": "Poor man's VPN",
+      "url": "https://github.com/apenwarr/sshuttle",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "6c662f807be3f65682b27a5353f16a7b",
+      "title": "strongSwan",
+      "description": "Complete IPsec implementation for Linux",
+      "url": "http://www.strongswan.org/",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ad181fa9cb67a01118a005bcf80bbb91",
+      "title": "tinc",
+      "description": "Distributed p2p VPN",
+      "url": "http://www.tinc-vpn.org/",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b17834c13c84406b9d8524591ed95325",
+      "title": "wireguard",
+      "description": "New minimal VPN Solution that is very fast",
+      "url": "https://www.wireguard.com/",
+      "category": "VPN",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "bc8698bb373349baab618afab8e64edf",
+      "title": "Apache",
+      "description": "Most popular web server",
+      "url": "http://httpd.apache.org/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "eecae5ba1db811fa624903f53cc5b68f",
+      "title": "Caddy",
+      "description": "The HTTP/2 Web Server with Fully Managed TLS",
+      "url": "https://caddyserver.com/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "37f11dcb787ab35a6aa04851933451f2",
+      "title": "Cherokee",
+      "description": "Lightweight, high-performance web server/reverse proxy",
+      "url": "http://cherokee-project.com/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "fa946b37b541ca4a9ea845ac43f0d6a3",
+      "title": "Lighttpd",
+      "description": "Web server more optimized for speed-critical environments",
+      "url": "http://www.lighttpd.net/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "a1371ae3e561da0789799f10a9c1a9e2",
+      "title": "Nginx",
+      "description": "Reverse proxy, load balancer, HTTP cache, and web server",
+      "url": "http://nginx.org/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e89999ccc395b4fe0ed9637e5a5975a0",
+      "title": "uWSGI",
+      "description": "The uWSGI project aims at developing a full stack for building hosting services",
+      "url": "https://github.com/unbit/uwsgi/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "b68ff8bdc8b139fef73f8f5834e8ac14",
+      "title": "HAProxy",
+      "description": "Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing",
+      "url": "http://www.haproxy.org/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "538e6fdaae2286638a0b205099245a5a",
+      "title": "Squid",
+      "description": "Caching proxy for the web supporting HTTP, HTTPS, FTP, and more",
+      "url": "http://www.squid-cache.org/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "f52f5b9eee49c35771874194594caf1a",
+      "title": "Traefik",
+      "description": "Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease",
+      "url": "https://traefik.io/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "83537858291df8917a919e47a6c6b0ed",
+      "title": "Varnish",
+      "description": "HTTP based web application accelerator focusing on optimizing caching and compression",
+      "url": "https://www.varnish-cache.org/",
+      "category": "Web",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "d43e7061d71aeaba132d393899ed7cba",
+      "title": "Mailpile",
+      "description": "A modern, fast web-mail client with user-friendly encryption and privacy features",
+      "url": "https://www.mailpile.is/",
+      "category": "Webmails",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "3f9a787edf9930c671d7fdeb7b7365a2",
+      "title": "Roundcube",
+      "description": "Browser-based IMAP client with an application-like user interface",
+      "url": "http://roundcube.net/",
+      "category": "Webmails",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "5661d626c3a6cf221f1f867828bac4da",
+      "title": "SquirrelMail",
+      "description": "Another browser-based IMAP client",
+      "url": "http://squirrelmail.org",
+      "category": "Webmails",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "0cd9e8da713d8b585a884d2ecf9b9393",
+      "title": "BookStack",
+      "description": "A simple, user-friendly wiki built with PHP that uses MySQL for storage",
+      "url": "https://www.bookstackapp.com/",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "7c995193091d459caf64fc30762cf9e1",
+      "title": "DokuWiki",
+      "description": "Simple to use and highly versatile wiki that doesn't require a database",
+      "url": "https://www.dokuwiki.org/dokuwiki",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "a30d06e5d4420d255671403368539ea2",
+      "title": "Gollum",
+      "description": "A simple, Git-powered wiki with a sweet API and local frontend",
+      "url": "https://github.com/gollum/gollum",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "604bf0d274ee86587ec262570296b58c",
+      "title": "ikiwiki",
+      "description": "A wiki compiler",
+      "url": "http://ikiwiki.info/",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "33a6e0c2c07769756dffdc66dc79f966",
+      "title": "MDwiki",
+      "description": "Wiki completely built in HTML5/Javascript and runs 100% on the client",
+      "url": "http://dynalon.github.io/mdwiki/#!index.md",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "664c84ef0a34e425608a5baa5f7307d4",
+      "title": "MediaWiki",
+      "description": "Used to power Wikipedia",
+      "url": "http://www.mediawiki.org/wiki/MediaWiki",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "4f1c465ff032ae5ef8f50c5e008275f3",
+      "title": "MoinMoin",
+      "description": "An advanced, easy to use and extensible WikiEngine with a large community of users",
+      "url": "http://moinmo.in/",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "53a77e85368d441187fbaaa6fd3d24e7",
+      "title": "Ōlelo Wiki",
+      "description": "A a wiki that stores pages in a Git repository",
+      "url": "https://github.com/minad/olelo",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "51b8804c5abd7bf6f11c274ff5b48271",
+      "title": "TiddlyWiki",
+      "description": "Complete interactive wiki in JavaScript",
+      "url": "http://tiddlywiki.com",
+      "category": "Wikis",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "f4f77c418b83baa0bb5155179137cf8b",
+      "title": "Code as Craft",
+      "description": "Etsy's Ops blog, lots of technical posts",
+      "url": "http://codeascraft.com/",
+      "category": "Blogs",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "75e98df3d2f2f6d8bbfb6dfe53ecac4b",
+      "title": "DevOpsGuys",
+      "description": "Devops consultants who blog about operations",
+      "url": "http://blog.devopsguys.com/",
+      "category": "Blogs",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e9bf7b1c7145b56d40790496d2538bdf",
+      "title": "Rackspace Developers",
+      "description": "Slightly biased blog with lots of Devops Topics",
+      "url": "http://developer.rackspace.com/blog/",
+      "category": "Blogs",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "4bd87eccd2a5e17257fe14a14b813da4",
+      "title": "The Linux Command Line",
+      "description": "A book about the Linux command line by William Shotts",
+      "url": "http://linuxcommand.org/tlcl.php",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "a0129e9d3eb177a22aea2381dc8268db",
+      "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+      "description": "How DevOps techniques can fix the problems that happen in IT organizations",
+      "url": "http://itrevolution.com/books/phoenix-project-devops-book/",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "2dfae8529c5bfa61df97a2b4809c3d8f",
+      "title": "The Practice of System and Network Administration",
+      "description": "The first and second editions describes the best practices of system and network administration, independent of specific platforms or technologies",
+      "url": "http://everythingsysadmin.com/books.html",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "87fb4ec631e4e048235b98706c2ee6c2",
+      "title": "The Visible Ops Handbook: Implementing ITIL in 4 Practical and Auditable Steps",
+      "description": "Is a methodology designed to jumpstart implementation of controls and process improvement",
+      "url": "http://www.itpi.org/the-visible-ops-handbook-review.html",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "9f4d51e03672bc6d684bff7b1ebc5a6f",
+      "title": "UNIX and Linux System Administration Handbook",
+      "description": "Approaches system administration from a practical perspective",
+      "url": "http://www.admin.com/",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ee75061512b9b46cdbbc4b4eb8053509",
+      "title": "Securing DevOps",
+      "description": "A book on Security techniques for DevOps that reviews state of the art practices used in securing web applications and their infrastructure",
+      "url": "https://manning.com/books/securing-devops?a_aid=securingdevops&a_bid=1353bcd8",
+      "category": "Books",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "916a47c5d2d4938fd1565c86a54d7899",
+      "title": "Servers for Hackers",
+      "description": "Newsletter for programmers who find themselves needing to know their way around a server",
+      "url": "http://serversforhackers.com/",
+      "category": "Newsletters",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "e590b7399b9af31fea607eab48d8ddcb",
+      "title": "DevOpsLinks",
+      "description": "A community of DevOps, SysAdmin & Developers with a weekly newsletter and a team chat",
+      "url": "http://devopslinks.com",
+      "category": "Newsletters",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "2e61c38d2604fd67875f2e5ced666de3",
+      "title": "Dotdeb",
+      "description": "Repository with LAMP updated packages for Debian",
+      "url": "http://www.dotdeb.org/",
+      "category": "Repositories",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "520c6892fd7660fb6dd7958fd624b36f",
+      "title": "ElRepo",
+      "description": "Community Repo for Enterprise Linux (RHEL, CentOS, etc)",
+      "url": "http://elrepo.org/tiki/tiki-index.php",
+      "category": "Repositories",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "4821fc93d8dc82eef423c50230c1f868",
+      "title": "EPEL",
+      "description": "Repository for RHEL and compatibles (CentOS, Scientific Linux)",
+      "url": "https://fedoraproject.org/wiki/EPEL",
+      "category": "Repositories",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "ece24954344a4d52ce2829dd293f02d0",
+      "title": "Remi",
+      "description": "Repository with LAMP updated packages for RHEL/Centos/Fedora",
+      "url": "http://rpms.famillecollet.com/",
+      "category": "Repositories",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "527e2ac127d2163a9421dfdb671ced8e",
+      "title": "Software Collections",
+      "description": "Community Release of [Red Hat Software Collections](https://access.redhat.com/documentation/en-US/Red_Hat_Software_Collections/). Provides updated packages of Ruby, Python, etc. for CentOS/Scientific Linux 6.x",
+      "url": "https://www.softwarecollections.org",
+      "category": "Repositories",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "3186d6429ad292c16dbf76e865023295",
+      "title": "Ops School",
+      "description": "Comprehensive program that will help you learn to be an operations engineer",
+      "url": "http://www.opsschool.org",
+      "category": "Websites",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    },
+    {
+      "id": "36c4ab6ee0b947a4bc06728b6caa63c2",
+      "title": "Digital Ocean Tutorials",
+      "description": "A surprisingly vast resource for getting the basics of certain applications, tools, or even systems administration topics",
+      "url": "https://www.digitalocean.com/community/tutorials",
+      "category": "Websites",
+      "firstSeen": "2025-03-18T18:07:24.007Z",
+      "isNew": false
+    }
+  ],
+  "categories": [
+    "Backups",
+    "Build Automation",
+    "ChatOps",
+    "Cloning",
+    "Cloud Computing",
+    "Cloud Orchestration",
+    "Cloud Storage",
+    "Code Review",
+    "Collaborative Software",
+    "Configuration Management Database",
+    "Configuration Management",
+    "Continuous Integration & Continuous Deployment",
+    "Control Panels",
+    "Deployment Automation",
+    "Diagramming",
+    "Distributed Filesystems",
+    "DNS",
+    "Editors",
+    "IT Asset Management",
+    "LDAP",
+    "Log Management",
+    "Mail Servers",
+    "Messaging",
+    "Monitoring",
+    "Metric & Metric Collection",
+    "Network Configuration Management",
+    "Newsletters",
+    "NoSQL",
+    "Packaging",
+    "Queuing",
+    "RDBMS",
+    "Security",
+    "Service Discovery",
+    "Software Containers",
+    "SSH",
+    "Statistics",
+    "Status Pages",
+    "Ticketing systems",
+    "Troubleshooting",
+    "Project Management",
+    "Version control",
+    "Virtualization",
+    "VPN",
+    "Web",
+    "Webmails",
+    "Wikis",
+    "Blogs",
+    "Books",
+    "Repositories",
+    "Websites"
+  ],
+  "subcategories": {
+    "Backups": [],
+    "Build Automation": [],
+    "ChatOps": [],
+    "Cloning": [],
+    "Cloud Computing": [],
+    "Cloud Orchestration": [],
+    "Cloud Storage": [],
+    "Code Review": [],
+    "Collaborative Software": [],
+    "Configuration Management Database": [],
+    "Configuration Management": [],
+    "Continuous Integration & Continuous Deployment": [],
+    "Control Panels": [],
+    "Deployment Automation": [],
+    "Diagramming": [],
+    "Distributed Filesystems": [],
+    "DNS": [],
+    "Editors": [],
+    "IT Asset Management": [],
+    "LDAP": [],
+    "Log Management": [],
+    "Mail Servers": [],
+    "Messaging": [],
+    "Monitoring": [],
+    "Metric & Metric Collection": [],
+    "Network Configuration Management": [],
+    "Newsletters": [],
+    "NoSQL": [],
+    "Packaging": [],
+    "Queuing": [],
+    "RDBMS": [],
+    "Security": [],
+    "Service Discovery": [],
+    "Software Containers": [],
+    "SSH": [],
+    "Statistics": [],
+    "Status Pages": [],
+    "Ticketing systems": [],
+    "Troubleshooting": [],
+    "Project Management": [],
+    "Version control": [],
+    "Virtualization": [],
+    "VPN": [],
+    "Web": [],
+    "Webmails": [],
+    "Wikis": [],
+    "Blogs": [],
+    "Books": [],
+    "Repositories": [],
+    "Websites": []
+  },
+  "lastUpdated": "2025-03-18T18:07:24.007Z"
+}
