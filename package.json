@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "ts-node --project tsconfig.server.json src/server.ts",
-    "build": "next build",
+    "clean": "rm -rf .next",
+    "build": "npm run clean && next build",
     "start": "NODE_ENV=production ts-node --project tsconfig.server.json src/server.ts",
     "lint": "next lint",
-    "scrape": "ts-node --project tsconfig.server.json scripts/scraper.ts"
+    "scrape": "ts-node --project tsconfig.server.json scripts/scraper.ts",
+    "add-list": "ts-node --project tsconfig.server.json scripts/add-list.ts"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "@chakra-ui/react": "^3.13.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.11.0",
+    "axios": "^1.8.3",
     "framer-motion": "^10.16.4",
     "marked": "^10.0.0",
     "next": "14.0.2",

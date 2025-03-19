@@ -1,6 +1,5 @@
 import { readFileSync, existsSync } from 'fs';
 import path from 'path';
-import { NextResponse } from 'next/server';
 
 // Path to tracked repos file
 const TRACKED_REPOS_FILE = path.join(process.cwd(), 'data', 'lists', 'tracked-repos.json');
@@ -24,15 +23,21 @@ export async function GET() {
         }
       });
       
-      return NextResponse.json({ ...defaultMapping, ...mapping });
+      return new Response(JSON.stringify({ ...defaultMapping, ...mapping }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
-    return NextResponse.json(defaultMapping);
+    return new Response(JSON.stringify(defaultMapping), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
   } catch (error) {
     console.error('Error generating repo mapping:', error);
-    return NextResponse.json(
-      { 'awesome-selfhosted': 'awesome-selfhosted' },
-      { status: 500 }
-    );
+    return new Response(JSON.stringify({ 'awesome-selfhosted': 'awesome-selfhosted' }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 }

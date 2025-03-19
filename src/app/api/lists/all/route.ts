@@ -1,7 +1,6 @@
 import { existsSync, readdir as readdirCb, readFile as readFileCb } from 'fs';
 import { join } from 'path';
 import { promisify } from 'util';
-import { NextResponse } from 'next/server';
 import { AwesomeList } from '@/types';
 
 const readdir = promisify(readdirCb);
@@ -27,7 +26,10 @@ export async function GET() {
   try {
     // Check if data directory exists
     if (!existsSync(DATA_DIR)) {
-      return NextResponse.json([], { status: 200 });
+      return new Response(JSON.stringify([]), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
     // Read the directory to find all JSON files
@@ -35,7 +37,10 @@ export async function GET() {
     const jsonFiles = files.filter(file => file.endsWith('.json') && file !== 'tracked-repos.json');
     
     if (jsonFiles.length === 0) {
-      return NextResponse.json([], { status: 200 });
+      return new Response(JSON.stringify([]), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
     // Read each file and extract essential metadata
@@ -62,9 +67,15 @@ export async function GET() {
       }
     }
     
-    return NextResponse.json(lists, { status: 200 });
+    return new Response(JSON.stringify(lists), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
   } catch (error) {
     console.error('Error fetching all lists:', error);
-    return NextResponse.json({ error: 'Failed to fetch lists' }, { status: 500 });
+    return new Response(JSON.stringify({ error: 'Failed to fetch lists' }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 } 

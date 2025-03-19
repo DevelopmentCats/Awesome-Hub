@@ -1,7 +1,6 @@
 import { readFile, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import path from 'path';
-import { NextResponse } from 'next/server';
 import { AwesomeList, ListItem } from '@/types';
 
 // Define the data directory
@@ -21,7 +20,10 @@ export async function GET(request: Request) {
     const newThreshold = days * 24 * 60 * 60 * 1000; // Convert days to milliseconds
     
     if (!existsSync(DATA_DIR)) {
-      return NextResponse.json(newItems);
+      return new Response(JSON.stringify(newItems), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
     // Read all list files
@@ -62,9 +64,15 @@ export async function GET(request: Request) {
       new Date(b.firstSeen).getTime() - new Date(a.firstSeen).getTime()
     );
     
-    return NextResponse.json(newItems);
+    return new Response(JSON.stringify(newItems), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
   } catch (error) {
     console.error('API error:', error);
-    return NextResponse.json({ error: String(error) }, { status: 500 });
+    return new Response(JSON.stringify({ error: String(error) }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 } 

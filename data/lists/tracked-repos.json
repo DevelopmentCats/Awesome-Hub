@@ -4,7 +4,7 @@
     "repo": "awesome-selfhosted",
     "name": "Awesome Selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "lastChecked": "2025-03-18T16:58:21.591Z",
+    "lastChecked": "2025-03-18T20:36:45.190Z",
     "branch": "master"
   },
   {
@@ -14,5 +14,45 @@
     "description": "A curated list of amazingly awesome open source sysadmin resources.",
     "lastChecked": "2025-03-18T18:07:24.014Z",
     "branch": "master"
+  },
+  {
+    "owner": "vinta",
+    "repo": "awesome-python",
+    "name": "Awesome Python",
+    "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+    "lastChecked": "2025-03-18T20:36:46.034Z",
+    "branch": "master"
+  },
+  {
+    "owner": "jaywcjlove",
+    "repo": "awesome-mac",
+    "name": "Awesome Mac",
+    "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+    "lastChecked": "2025-03-18T20:40:24.346Z",
+    "branch": "master"
+  },
+  {
+    "owner": "sindresorhus",
+    "repo": "awesome-nodejs",
+    "name": "Awesome Node.js",
+    "description": ":zap: Delightful Node.js packages and resources",
+    "lastChecked": "2025-03-19T15:12:45.387Z",
+    "branch": "main"
+  },
+  {
+    "owner": "viatsko",
+    "repo": "awesome-vscode",
+    "name": "Awesome VSCode",
+    "description": "🎨 A curated list of delightful VS Code packages and resources.",
+    "lastChecked": "2025-03-19T18:55:01.530Z",
+    "branch": "master"
+  },
+  {
+    "owner": "djsime1",
+    "repo": "awesome-flipperzero",
+    "name": "Awesome Flipper Zero",
+    "description": "🐬 A collection of awesome resources for the Flipper Zero device.",
+    "lastChecked": "2025-03-19T19:12:03.454Z",
+    "branch": "main"
   }
 ]

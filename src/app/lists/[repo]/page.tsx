@@ -390,13 +390,17 @@ export default function RepoPage() {
   }, [searchQuery, items]);
   
   return (
-    <AppLayout disableScrollContainer={true}>
+    <AppLayout 
+      disableScrollContainer={true} 
+      transparentContainer={true}
+    >
       <Box 
         width="100%" 
         height="100%" 
         display="flex"
         flexDirection="column"
         overflow="hidden"
+        gap={3}
       >
         {loading ? (
           <Center py={10} height="100%">
@@ -404,9 +408,11 @@ export default function RepoPage() {
           </Center>
         ) : (
           <>
-            {/* Fixed Header */}
+            {/* Fixed Header as a separate card */}
             <Box
-              borderBottom="1px"
+              borderRadius="md"
+              boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
+              border="1px solid"
               borderColor={isDarkMode ? "gray.700" : "gray.200"}
               py={3}
               px={4}
@@ -491,25 +497,30 @@ export default function RepoPage() {
               </Flex>
             </Box>
             
-            {/* Main Content Area with Two Scrollable Containers */}
+            {/* Content area with sidebar and items */}
             <Flex 
               flex="1" 
-              overflow="hidden" 
+              overflow="hidden"
+              gap={3}
             >
               {/* Categories Sidebar - Desktop */}
               <Box 
                 width="240px" 
-                borderRight="1px"
+                borderRadius="md"
+                boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
+                border="1px solid"
                 borderColor={isDarkMode ? "gray.700" : "gray.200"}
                 height="100%"
                 display={{ base: 'none', md: 'block' }}
                 overflow="hidden"
                 flexShrink={0}
+                bg={isDarkMode ? "gray.800" : "white"}
               >
                 <Box 
                   p={3} 
                   borderBottom="1px" 
                   borderColor={isDarkMode ? "gray.700" : "gray.200"}
+                  bg={isDarkMode ? "gray.750" : "gray.50"}
                 >
                   <Heading size="sm" fontWeight="600">
                     Categories ({categories.length})
@@ -570,24 +581,20 @@ export default function RepoPage() {
                 </Box>
               )}
               
-              {/* Content Area Container */}
-              <Box
+              {/* Content Area Container split into two sections with gap */}
+              <Flex
                 flex="1"
                 height="100%"
-                borderRadius="md"
-                boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
-                border="1px solid"
-                borderColor={isDarkMode ? "gray.700" : "gray.200"}
-                bg={isDarkMode ? "gray.800" : "white"}
-                overflow="hidden"
-                display="flex"
                 flexDirection="column"
+                gap={3}
               >
-                {/* Fixed Category Header */}
+                {/* Category Header as separate card */}
                 <Box 
-                  p={3} 
-                  borderBottom="1px" 
+                  borderRadius="md"
+                  boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
+                  border="1px solid"
                   borderColor={isDarkMode ? "gray.700" : "gray.200"}
+                  p={3} 
                   bg={isDarkMode ? "gray.750" : "gray.50"}
                 >
                   <Flex align="center">
@@ -607,56 +614,65 @@ export default function RepoPage() {
                   </Flex>
                 </Box>
                 
-                {/* Scrollable Content */}
+                {/* Items content as separate card */}
                 <Box
                   flex="1"
-                  p={4}
-                  overflowY="auto"
-                  height="100%"
-                  ref={contentRef}
+                  borderRadius="md"
+                  boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
+                  border="1px solid"
+                  borderColor={isDarkMode ? "gray.700" : "gray.200"}
+                  bg={isDarkMode ? "gray.800" : "white"}
+                  overflow="hidden"
                 >
-                  {filteredItems.length > 0 ? (
-                    <Box>
-                      {/* Group Items by Category */}
-                      {categories.map(category => (
-                        itemsByCategory[category] && itemsByCategory[category].length > 0 && (
-                          <CategorySection 
-                            key={category}
-                            name={category}
-                            items={itemsByCategory[category]}
-                            onToggleFavorite={handleToggleFavorite}
-                            favorites={favorites}
-                            isDarkMode={isDarkMode}
-                            listName={list?.name || repo}
-                            listId={list?.id || ''}
-                          />
-                        )
-                      ))}
-                    </Box>
-                  ) : (
-                    <Box 
-                      p={6} 
-                      textAlign="center"
-                      bg={isDarkMode ? "gray.750" : "gray.50"}
-                      borderRadius="md"
-                      border="1px solid"
-                      borderColor={isDarkMode ? "gray.700" : "gray.200"}
-                    >
-                      <Text mb={4}>No items found matching your criteria.</Text>
-                      {searchQuery && (
-                        <Button 
-                          onClick={() => setSearchQuery('')} 
-                          size="sm"
-                          colorScheme="purple"
-                          variant="outline"
-                        >
-                          Clear search
-                        </Button>
-                      )}
-                    </Box>
-                  )}
+                  <Box
+                    p={4}
+                    overflowY="auto"
+                    height="100%"
+                    ref={contentRef}
+                  >
+                    {filteredItems.length > 0 ? (
+                      <Box>
+                        {/* Group Items by Category */}
+                        {categories.map(category => (
+                          itemsByCategory[category] && itemsByCategory[category].length > 0 && (
+                            <CategorySection 
+                              key={category}
+                              name={category}
+                              items={itemsByCategory[category]}
+                              onToggleFavorite={handleToggleFavorite}
+                              favorites={favorites}
+                              isDarkMode={isDarkMode}
+                              listName={list?.name || repo}
+                              listId={list?.id || ''}
+                            />
+                          )
+                        ))}
+                      </Box>
+                    ) : (
+                      <Box 
+                        p={6} 
+                        textAlign="center"
+                        bg={isDarkMode ? "gray.750" : "gray.50"}
+                        borderRadius="md"
+                        border="1px solid"
+                        borderColor={isDarkMode ? "gray.700" : "gray.200"}
+                      >
+                        <Text mb={4}>No items found matching your criteria.</Text>
+                        {searchQuery && (
+                          <Button 
+                            onClick={() => setSearchQuery('')} 
+                            size="sm"
+                            colorScheme="purple"
+                            variant="outline"
+                          >
+                            Clear search
+                          </Button>
+                        )}
+                      </Box>
+                    )}
+                  </Box>
                 </Box>
-              </Box>
+              </Flex>
             </Flex>
             
             {/* Scroll to Top Button */}

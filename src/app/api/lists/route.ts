@@ -1,7 +1,6 @@
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import path from 'path';
-import { NextResponse } from 'next/server';
 import { AwesomeList, TrackedRepository } from '@/types';
 
 // Define the data directory
@@ -97,17 +96,29 @@ export async function GET(request: Request) {
     if (owner && repo) {
       const list = await getStoredList(owner, repo);
       if (!list) {
-        return NextResponse.json({ error: 'List not found' }, { status: 404 });
+        return new Response(JSON.stringify({ error: 'List not found' }), {
+          status: 404, 
+          headers: { 'Content-Type': 'application/json' }
+        });
       }
-      return NextResponse.json(list);
+      return new Response(JSON.stringify(list), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
     // Otherwise return all tracked repositories
     const repos = await getTrackedRepositories();
-    return NextResponse.json(repos);
+    return new Response(JSON.stringify(repos), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
   } catch (error) {
     console.error('API error:', error);
-    return NextResponse.json({ error: String(error) }, { status: 500 });
+    return new Response(JSON.stringify({ error: String(error) }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 }
 
@@ -117,7 +128,10 @@ export async function POST(request: Request) {
     const list: AwesomeList = await request.json();
     
     if (!list || !list.owner || !list.repo) {
-      return NextResponse.json({ error: 'Invalid list data' }, { status: 400 });
+      return new Response(JSON.stringify({ error: 'Invalid list data' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json' }
+      });
     }
     
     await saveStoredList(list);
@@ -136,9 +150,15 @@ export async function POST(request: Request) {
     
     await writeFile(getTrackedReposFilePath(), JSON.stringify(updated, null, 2));
     
-    return NextResponse.json({ success: true });
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
   } catch (error) {
     console.error('API error:', error);
-    return NextResponse.json({ error: String(error) }, { status: 500 });
+    return new Response(JSON.stringify({ error: String(error) }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 } 

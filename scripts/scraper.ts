@@ -116,11 +116,25 @@ async function hasRepoBeenUpdated(owner: string, repo: string, lastChecked: stri
  * Get README content from GitHub
  */
 async function getReadmeContent(owner: string, repo: string, branch: string = 'main'): Promise<string> {
-  const url = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/README.md`;
-  const response = await fetch(url);
+  // Try uppercase README.md first (most common)
+  const uppercaseUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/README.md`;
+  let response = await fetch(uppercaseUrl);
   
+  // If uppercase doesn't work, try lowercase readme.md
   if (!response.ok) {
-    throw new Error(`Failed to fetch README: ${response.statusText}`);
+    const lowercaseUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/readme.md`;
+    response = await fetch(lowercaseUrl);
+    
+    // If lowercase also fails, try other common variations
+    if (!response.ok) {
+      const markdownUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/Readme.md`;
+      response = await fetch(markdownUrl);
+      
+      // If all variations fail, throw an error
+      if (!response.ok) {
+        throw new Error(`Failed to fetch README: ${response.statusText}`);
+      }
+    }
   }
   
   return response.text();

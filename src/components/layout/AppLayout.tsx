@@ -14,12 +14,14 @@ export interface AppLayoutProps {
   children: ReactNode;
   activeListRepo?: string;
   disableScrollContainer?: boolean;
+  transparentContainer?: boolean;
 }
 
 export default function AppLayout({ 
   children, 
   activeListRepo,
-  disableScrollContainer = false
+  disableScrollContainer = false,
+  transparentContainer = false
 }: AppLayoutProps) {
   const pathname = usePathname();
   const router = useRouter();
@@ -114,19 +116,32 @@ export default function AppLayout({
           
           {/* Main content container - conditionally wrap in ScrollContainer */}
           {disableScrollContainer ? (
-            <Box 
-              flex="1" 
-              height="100%"
-              bg={isDarkMode ? "gray.800" : "white"}
-              position="relative"
-              borderRadius="md"
-              boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
-              border="1px solid"
-              borderColor={isDarkMode ? "gray.700" : "gray.200"}
-              overflow="hidden"
-            >
-              {children}
-            </Box>
+            transparentContainer ? (
+              // Transparent container with no styling
+              <Box 
+                flex="1" 
+                height="100%"
+                position="relative"
+                overflow="hidden"
+              >
+                {children}
+              </Box>
+            ) : (
+              // Regular container with styling
+              <Box 
+                flex="1" 
+                height="100%"
+                bg={isDarkMode ? "gray.800" : "white"}
+                position="relative"
+                borderRadius="md"
+                boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.15)"
+                border="1px solid"
+                borderColor={isDarkMode ? "gray.700" : "gray.200"}
+                overflow="hidden"
+              >
+                {children}
+              </Box>
+            )
           ) : (
             <ScrollContainer 
               flex="1" 

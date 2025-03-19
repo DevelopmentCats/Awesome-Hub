@@ -1,6 +1,5 @@
 import { spawn } from 'child_process';
 import path from 'path';
-import { NextResponse } from 'next/server';
 import { headers } from 'next/headers';
 
 let isRunning = false;
@@ -34,17 +33,21 @@ function isInternalRequest(request: Request): boolean {
 export async function POST(request: Request) {
   // Ensure only internal requests can trigger scraping
   if (!isInternalRequest(request)) {
-    return NextResponse.json(
-      { success: false, message: 'Unauthorized' },
-      { status: 401 }
-    );
+    return new Response(JSON.stringify(
+      { success: false, message: 'Unauthorized' }
+    ), {
+      status: 401,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
   
   if (isRunning) {
-    return NextResponse.json(
-      { success: false, message: 'Scraper is already running' },
-      { status: 429 }
-    );
+    return new Response(JSON.stringify(
+      { success: false, message: 'Scraper is already running' }
+    ), {
+      status: 429,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
   
   try {
@@ -71,17 +74,22 @@ export async function POST(request: Request) {
     // Return success immediately but continue running the scraper
     setTimeout(() => { isRunning = false; }, 600000); // Safety timeout after 10 minutes
     
-    return NextResponse.json({ 
+    return new Response(JSON.stringify({ 
       success: true, 
       message: 'Scraper started' 
+    }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
     });
   } catch (error) {
     isRunning = false;
     console.error('Failed to start scraper:', error);
-    return NextResponse.json(
-      { success: false, error: String(error) },
-      { status: 500 }
-    );
+    return new Response(JSON.stringify(
+      { success: false, error: String(error) }
+    ), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 }
 
@@ -89,14 +97,19 @@ export async function POST(request: Request) {
 export async function GET(request: Request) {
   // Only allow internal requests to check status
   if (!isInternalRequest(request)) {
-    return NextResponse.json(
-      { success: false, message: 'Unauthorized' },
-      { status: 401 }
-    );
+    return new Response(JSON.stringify(
+      { success: false, message: 'Unauthorized' }
+    ), {
+      status: 401,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
   
-  return NextResponse.json({ 
+  return new Response(JSON.stringify({ 
     success: true,
     isRunning
+  }), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' }
   });
 } 

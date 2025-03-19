@@ -1,0 +1,1550 @@
+{
+  "id": "djsime1/awesome-flipperzero",
+  "name": "Awesome Flipper Zero",
+  "description": "",
+  "owner": "djsime1",
+  "repo": "awesome-flipperzero",
+  "items": [
+    {
+      "id": "69acf896dd6b7158a119f05858944da9",
+      "title": "`UberGuidoZ Playground` Large collection of files, documentation, and dumps of all kinds, including everything below.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper",
+      "category": "Databases & Dumps",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "55bd56e5dcad8b124a8c27fee5cb1d3f",
+      "title": "`FlipperZero-TouchTunes` Dumps of TouchTune's remote.",
+      "description": "",
+      "url": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
+      "category": "Databases & Dumps",
+      "subcategory": "*Sub-GHz*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "392c88f0734944b00ed7eb35ad366d72",
+      "title": "`T119 bruteforcer` Triggers Retekess T119 restaurant pagers.",
+      "description": "",
+      "url": "https://github.com/xb8/t119bruteforcer",
+      "category": "Databases & Dumps",
+      "subcategory": "*Sub-GHz*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9973bd634da11a1415658e0df5ef85e9",
+      "title": "`flipperzero-bruteforce` Generate .sub files to brute force Sub-GHz OOK.",
+      "description": "",
+      "url": "https://github.com/tobiabocchi/flipperzero-bruteforce",
+      "category": "Databases & Dumps",
+      "subcategory": "*Sub-GHz*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "454f58f2e816be09ba2dd1680824fbb0",
+      "title": "`Flipperzero-Concert-Bracelets` Sub-GHz file to trigger event LED bracelets.",
+      "description": "",
+      "url": "https://github.com/MakeTotalSense/Flipper-Concert-bracelets",
+      "category": "Databases & Dumps",
+      "subcategory": "*Sub-GHz*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "2b09b7b08af2261364ddb7e61ee6bc12",
+      "title": "`FlipperAmiibo` Bank vault of Amiibos to Flipper's format.",
+      "description": "",
+      "url": "https://github.com/Gioman101/FlipperAmiibo",
+      "category": "Databases & Dumps",
+      "subcategory": "*NFC/RFID*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "680f4f51bdf35613ac69917279b64ef0",
+      "title": "`Flipper-Zero-Tonies` Database of Tonies for the Toniebox.",
+      "description": "",
+      "url": "https://github.com/nortakales/flipper-zero-tonies",
+      "category": "Databases & Dumps",
+      "subcategory": "*NFC/RFID*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "7ad04cf511c634478e3ec9d6546cab13",
+      "title": "`Flipper-IRDB` Many IR dumps for various devices.",
+      "description": "",
+      "url": "https://github.com/logickworkshop/Flipper-IRDB",
+      "category": "Databases & Dumps",
+      "subcategory": "*Infrared*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "0b219c853647182eb790f1f814e9674a",
+      "title": "`MarkCyber` Free BadUSB payloads for ethical hacking (and fun).",
+      "description": "",
+      "url": "https://github.com/MarkCyber/BadUSB",
+      "category": "Databases & Dumps",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "3d003307e501bde267c86af9854375b0",
+      "title": "`My-Flipper-Shits` Free and open-source BadUSB payloads for Flipper Zero.",
+      "description": "",
+      "url": "https://github.com/aleff-github/my-flipper-shits/",
+      "category": "Databases & Dumps",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5f26334198ab2c7f247dc5cfd3bb8a2e",
+      "title": "`Flipper BadUSB Payloads` Collection of payloads formatted to work on the Flipper Zero.",
+      "description": "",
+      "url": "https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB",
+      "category": "Databases & Dumps",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "147bfb0f4c68d61b5ef3bb28275aaf1f",
+      "title": "`FalsePhilosophers Flipper BadUSB` Flipper Zero community ducky payload repo.",
+      "description": "",
+      "url": "https://github.com/FalsePhilosopher/badusb",
+      "category": "Databases & Dumps",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "3687e9ac0f846afad6df1d6bc23666ea",
+      "title": "`FlipperMusicRTTTL` Collection of musics for FlipperZero Music Player.",
+      "description": "",
+      "url": "https://github.com/neverfa11ing/FlipperMusicRTTTL",
+      "category": "Databases & Dumps",
+      "subcategory": "*Music*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "054ad5518de49aed41098896478cc9f6",
+      "title": "`flipper-music-files` Much smaller collection of musics for FlipperZero Music Player.",
+      "description": "",
+      "url": "https://github.com/Tonsil/flipper-music-files",
+      "category": "Databases & Dumps",
+      "subcategory": "*Music*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "0c3de66e654485234b5e2491f2727844",
+      "title": "`FlipperZero-Goodies` Intercom keys, scripts, etc.",
+      "description": "",
+      "url": "https://github.com/wetox-team/flipperzero-goodies",
+      "category": "Databases & Dumps",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "1104011f94858ef69e7f63b51bb10c56",
+      "title": "`Flipper-StarNew` Universal Intercom Keys.",
+      "description": "",
+      "url": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
+      "category": "Databases & Dumps",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "47d42e498aaff573939e321a505a5626",
+      "title": "`Officially maintained apps` Official apps maintained by the Flipper Team and collaborators.",
+      "description": "",
+      "url": "https://github.com/flipperdevices/flipperzero-good-faps",
+      "category": "Applications & Plugins",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "561aba0487a6cf731dac5a7d0fcdb719",
+      "title": "`All the plugins` Large collection of applications including some not published in the official catalog",
+      "description": "",
+      "url": "https://github.com/xMasterX/all-the-plugins/tree/dev",
+      "category": "Applications & Plugins",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "76bca63806294ecb41c4c4bc1f0b0414",
+      "title": "`Spectrum analyzer` Sub-GHz frequency spectrum analyzer.",
+      "description": "",
+      "url": "https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer",
+      "category": "Applications & Plugins",
+      "subcategory": "*Sub-GHz*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5fbca992d3035f122bba4d19928c0a03",
+      "title": "`Xbox Controller` Easy controller for Xbox One with IR",
+      "description": "",
+      "url": "https://github.com/gebeto/flipper-xbox-controller",
+      "category": "Applications & Plugins",
+      "subcategory": "*Infrared*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a4b31e32edbe10ac04397c7f6f1a8e36",
+      "title": "`XRemote` Advanced IR remote app for Flipper Zero",
+      "description": "",
+      "url": "https://github.com/kala13x/flipper-xremote",
+      "category": "Applications & Plugins",
+      "subcategory": "*Infrared*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f8f1afc99e8278afb77e0550dbd5c087",
+      "title": "`Vulnerability Scanner` Scans a PC for vulnerabilities and saves results.",
+      "description": "",
+      "url": "https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt",
+      "category": "Applications & Plugins",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9f0ea7bba6f5e6f25c0653894ca5728f",
+      "title": "`COM Port Scanner Emulator` Barcode Scanner Emulator.",
+      "description": "",
+      "url": "https://github.com/polarikus/flipper-zero_bc_scanner_emulator",
+      "category": "Applications & Plugins",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "09cf12c17ef414a4322d03f9fe98e5fc",
+      "title": "`USB HID Autofire` Send left-clicks as a USB HID device.",
+      "description": "",
+      "url": "https://github.com/pbek/usb_hid_autofire",
+      "category": "Applications & Plugins",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "552b8f8622faa220fb2ad0b129b47ae8",
+      "title": "`Mouse jiggler` Keeps PC screens on by acting as a moving mouse.",
+      "description": "",
+      "url": "https://github.com/MuddledBox/flipperzero-firmware/tree/Mouse_Jiggler/applications/mouse_jiggler",
+      "category": "Applications & Plugins",
+      "subcategory": "*BadUSB*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "0893d15f27482ef1c13543efc16d8e90",
+      "title": "`UberGuidoZ Documentation` Many different pinouts, modules, and protocol documentation.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper/tree/main/GPIO",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "7dd51a2a0dbe03b4e6f3395f472db4a0",
+      "title": "`NRF24 & Mousejacking` (outdated) PoC NRF24 library and mousejack exploitation app.",
+      "description": "",
+      "url": "https://github.com/mothball187/flipperzero-nrf24",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "b0c021f83a52dcee951ea26d1176ccbc",
+      "title": "`Sentry Safe` Plugin that can open any Sentry Safe and Master Lock electronic safe without entering pin code.",
+      "description": "",
+      "url": "https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "fd5a0505a8c08c8f537a996e4b35e5b0",
+      "title": "`GPS` Display data from a serial GPS module.",
+      "description": "",
+      "url": "https://github.com/ezod/flipperzero-gps",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "efa9b946397049a0f9873e4a25fd6586",
+      "title": "`Unitemp` Temperature, humidity and pressure sensors reader (DHT11/22, DS18B20, BMP280, HTU21x and more)",
+      "description": "",
+      "url": "https://github.com/quen0n/unitemp-flipperzero",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "27e356adeee3f763f6b189ba2abe2133",
+      "title": "`Servo Tester` Servo Tester App",
+      "description": "",
+      "url": "https://github.com/mhasbini/ServoTesterApp",
+      "category": "Applications & Plugins",
+      "subcategory": "*GPIO*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "d93a1963b57485ab6c1c3896c83cc317",
+      "title": "`UberGuidoZ Files and Documentation` Documentation, Marauder, BlackMagic, and links.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard",
+      "category": "Applications & Plugins",
+      "subcategory": "*Wifi Devboard*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f66990a9e062b1b178bec7feffc814b6",
+      "title": "`FZEE Flasher` Easy web flasher for various different wifi boards.",
+      "description": "",
+      "url": "https://fzeeflasher.com/",
+      "category": "Applications & Plugins",
+      "subcategory": "*Wifi Devboard*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "511306d89636ddd6bc32594938817c56",
+      "title": "`SkeletonMan's ESP32 Flasher` Python script to flash multiple boards with Marauder or BlackMagic.",
+      "description": "",
+      "url": "https://github.com/SkeletonMan03/FZEasyMarauderFlash",
+      "category": "Applications & Plugins",
+      "subcategory": "*Wifi Devboard*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "1540a24ad5395ebf9c338cb94ad82cbd",
+      "title": "`Maraduer Official` Official site from JustCallMeKoko, including various ESP32 options.",
+      "description": "",
+      "url": "https://github.com/justcallmekoko/ESP32Marauder",
+      "category": "Applications & Plugins",
+      "subcategory": "*Wifi Devboard*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "e2db7a63d0daefd83b6205f350af58d4",
+      "title": "`Flipper Zero Evil Portal` An evil captive portal Wi-Fi access point using the Flipper Zero and Wi-Fi dev board",
+      "description": "",
+      "url": "https://github.com/bigbrodude6119/flipper-zero-evil-portal",
+      "category": "Applications & Plugins",
+      "subcategory": "*Wifi Devboard*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "8d09ba19b845f807d506903711ab4e63",
+      "title": "`USB Keyboard` (outdated) A refactor of the BT remote to work over USB. Allows the Flipper to act as an USB HID keyboard.",
+      "description": "",
+      "url": "https://github.com/huuck/FlipperZeroUSBKeyboard",
+      "category": "Applications & Plugins",
+      "subcategory": "*Bluetooth*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "4d761c71f05890141957c518ff31a08e",
+      "title": "`ble_spam_ofw` Application that spams broadcast packets to Apple, Android, and Windows.",
+      "description": "",
+      "url": "https://github.com/noproto/ble_spam_ofw",
+      "category": "Applications & Plugins",
+      "subcategory": "*Bluetooth*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ac8135f2f57c06a496048ca7603c66c2",
+      "title": "`Tetris` A rudimentary Tetris game.",
+      "description": "",
+      "url": "https://github.com/jeffplang/flipperzero-firmware/tree/tetris_game/applications/tetris_game",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "982c338ca78c9b16c917da241186286a",
+      "title": "`Flappy Bird` The name says it all.",
+      "description": "",
+      "url": "https://github.com/DroomOne/flipperzero-firmware/tree/dev/applications%2Fflappy_bird",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a22de9382241fcca994928520f229337",
+      "title": "`T-Rex Runner` Flipper zero port of Chrome's game.",
+      "description": "",
+      "url": "https://github.com/Rrycbarm/t-rex-runner",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "085a4c5b9ad6dd1fbd8c6e12019b2f15",
+      "title": "`floopper-bloopper` LD#47 Game.",
+      "description": "",
+      "url": "https://github.com/glitchcore/floopper-bloopper",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "8985b2d8284588d61939c51db9605b11",
+      "title": "`Doom` Doom-like clone for Flipper Zero.",
+      "description": "",
+      "url": "https://github.com/p4nic4ttack/doom-flipper-zero",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ee828f837da6376caa4ca99959b26247",
+      "title": "`Minesweeper` Minesweeper implementation.",
+      "description": "",
+      "url": "https://github.com/panki27/minesweeper",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5a6dd4a2694e9db02c30cc03267bc05e",
+      "title": "`Reversi` The classic Reversi game",
+      "description": "",
+      "url": "https://github.com/dimat/flipperzero-reversi",
+      "category": "Applications & Plugins",
+      "subcategory": "*Games*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "775b9941b60683f0e88e476a915a3ca8",
+      "title": "`Flipper-Plugin-Tutorial` Updated plugin tutorial based on new build methods.",
+      "description": "",
+      "url": "https://github.com/csBlueChip/FlipperZero_plugin_howto",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "12ff88c716f97c49c803a398a0d01ca1",
+      "title": "`Flipper Authenticator` Generate TOTP authentication codes.",
+      "description": "",
+      "url": "https://github.com/akopachov/flipper-zero_authenticator/",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a73e0b21f89e49dddcd41c9f2b0f1637",
+      "title": "`Tuning Fork` Use your Flipper as a tuning fork.",
+      "description": "",
+      "url": "https://github.com/besya/flipperzero-tuning-fork",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "960416aa63a385e3eaf193941cfc02f9",
+      "title": "`UPC-A Barcode Generator` Can be used to create any UPC-A barcode.",
+      "description": "",
+      "url": "https://github.com/McAzzaMan/flipperzero-firmware/tree/UPC-A_Barcode_Generator/applications/barcode_generator",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "d277956cfbb838ffd5abd03e651b6d44",
+      "title": "`Dec/Hex Converter` Small \"real time\" decimal/hexadecimal converter.",
+      "description": "",
+      "url": "https://github.com/theisolinearchip/flipperzero_stuff/tree/main/applications/dec_hex_converter",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a11a1eae7ca94710d5789e36ace25caa",
+      "title": "`MultiConverter` Multi-unit converter that can be easily expanded with new units and conversion methods.",
+      "description": "",
+      "url": "https://github.com/theisolinearchip/flipperzero_stuff/tree/main/applications/multi_converter",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "4b7ac9d57aeb152f1cdd0982d1a27706",
+      "title": "`bpm-tapper` Tap along to a song to measure beats per minute.",
+      "description": "",
+      "url": "https://github.com/panki27/bpm-tapper",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "048ff39ba4206368c7bc518c40d00982",
+      "title": "`Flipp Pomodoro` Pomodoro Timer Tool for productivity.",
+      "description": "",
+      "url": "https://github.com/Th3Un1q3/flipp_pomodoro",
+      "category": "Applications & Plugins",
+      "subcategory": "*Utility/Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9e1a9aa61f6b4d8698f0facd1da3dbc7",
+      "title": "`Official firmware` The source code for Flipper's stock firmware.",
+      "description": "",
+      "url": "https://github.com/flipperdevices/flipperzero-firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Official firmware (ofw)*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "4f2cefdc48e16b568e9f18bd939873d9",
+      "title": "`Unleashed` Unlocked firmware with rolling codes support & community plugins, stable tweaks, and games.",
+      "description": "",
+      "url": "https://github.com/DarkFlippers/unleashed-firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Custom firmware (cfw)*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "d033041cda19956ecc754deb43572ab5",
+      "title": "`Momentum` Feature-rich, stable and customizable Flipper firmware: a direct continuation of the Xtreme firmware.",
+      "description": "",
+      "url": "https://github.com/Next-Flip/Momentum-Firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Custom firmware (cfw)*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "94e2059d80a5cea06aee325b10122a19",
+      "title": "`RogueMaster` Fork of Unleashed firmware with custom graphics, experimental tweaks, community plugins and games.",
+      "description": "",
+      "url": "https://github.com/RogueMaster/flipperzero-firmware-wPlugins",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Custom firmware (cfw)*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f7b93c988e8034b07480e6e7bd6f3ed7",
+      "title": "`Xtreme` Official fork with cleaned up codebase, more module extensions and custom assets.",
+      "description": "",
+      "url": "https://github.com/ClaraCrazy/Flipper-Xtreme",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "889948956b16f8df03745ce8c32f8c60",
+      "title": "`SquachWare` Fork of official firmware which adds custom graphics, community applications & files.",
+      "description": "",
+      "url": "https://github.com/skizzophrenic/SquachWare-CFW",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "c71385810363d6f337ce87efa61152a1",
+      "title": "`Dexv` Xtreme fork; The \"Will it blend?\" of custom firmwares.",
+      "description": "",
+      "url": "https://github.com/DXVVAY/Dexvmaster0",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "d08b41795f8c5f8161d5b1098e88779c",
+      "title": "`Wetox` Very similar to the official branch, with a few small tweaks.",
+      "description": "",
+      "url": "https://github.com/wetox-team/flipperzero-firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "70fe220870fff5febcaa68cf8f65fc6a",
+      "title": "`Muddled Forks` Less-active firmware modifications.",
+      "description": "",
+      "url": "https://github.com/MuddledBox/flipperzero-firmware/tree/muddled_dev",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "2e1e0ef3314a4b26b502e40202592da4",
+      "title": "`OpenHaystack BLE mod` Very old PoC that makes Flipper behave like an AirTag.",
+      "description": "",
+      "url": "https://github.com/AlexStrNik/flipperzero-firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "8be0dee2c6a4bdf33f86ea9ca07801af",
+      "title": "`v1nc flipper zero firmware` Unleashed fork with support for different Duckyscript keyboard layouts & community plugins.",
+      "description": "",
+      "url": "https://github.com/v1nc/flipperzero-firmware",
+      "category": "Firmwares & Tweaks",
+      "subcategory": "*Outdated/Unmaintained firmware*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a146ff7f3f339d5ad24c025bda89f4a4",
+      "title": "`Flipper Zero Animation Process` Google Doc step by step from Talking Sasquach.",
+      "description": "",
+      "url": "https://docs.google.com/document/d/e/2PACX-1vR_nZRakD6iwJVQS8Pf4y7Wm4klcucrC7EKVO8m_DQV63To7e-alqD0yaoO3sTygjcChfcRo80Hdeet/pub",
+      "category": "Graphics & Animations",
+      "subcategory": "*Tutorials*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "c785260f282a7047ef5948d026639add",
+      "title": "`Lab401 Animation Video` YouTube video with a step by step from Talking Sasquach.",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=Nq5DXhOMo5s",
+      "category": "Graphics & Animations",
+      "subcategory": "*Tutorials*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "97f1ca476bc6ff0000560038b96c05dd",
+      "title": "`Talking Sasquach Animations` Literally wrote the book on making animations.",
+      "description": "",
+      "url": "https://github.com/skizzophrenic/Talking-Sasquach",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "861af768a671f5c00086825af51bc062",
+      "title": "`Kuronons Graphics` Custom animations, passport backgrounds & profile pictures.",
+      "description": "",
+      "url": "https://github.com/Kuronons/FZ_graphics",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "59688d1cc36ffce0891c021b9a8fe10c",
+      "title": "`Haseosama Animations` Great collection of custom animations.",
+      "description": "",
+      "url": "https://github.com/Haseosama/FZ_Animations",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "bddd442d9c551de2cae6de3d2d4f8dd1",
+      "title": "`Animations by stopoxy` Another great custom animation collection.",
+      "description": "",
+      "url": "https://github.com/stopoxy/FZAnimations",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9c8a9cae8b7d0cfcd5efd4eb541f40bf",
+      "title": "`Wr3nch Animations` Some custom animations and scripts.",
+      "description": "",
+      "url": "https://github.com/wrenchathome/flip0anims",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "eacca3e4d4454f18dea6e1a22f146322",
+      "title": "`Dexv Graphics` Custom animations and resources.",
+      "description": "",
+      "url": "https://github.com/DXVVAY/dexv-graphics",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f537862b7a96e247089bc3ddf3a2bd9a",
+      "title": "`DoobTheGoober Animations` Custom animations from the creator of zip2Animation",
+      "description": "",
+      "url": "https://github.com/CharlesTheGreat77/FlipperZeroAnimation",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "a1848973fd47f39373c0541183067347",
+      "title": "`UberGuidoZ Graphics` Brief description and links to resources, including PYX host.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper/tree/main/Graphics",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9f6259215a5476a7cd92ec78ae195491",
+      "title": "`Animations by mnenkov` A dump with animations and manifest creator for batch files.",
+      "description": "",
+      "url": "https://github.com/mnenkov/flipper-zero-animations",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "080c962d224207f1f20e7e440833dfcd",
+      "title": "`Oneamongthetrees Animations/Graphics` Collection of custom animations and passport icons.",
+      "description": "",
+      "url": "https://github.com/oneamongthetrees/fz-gfx",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "fff00003b9a4e4763c7fcb53ccb4b2f0",
+      "title": "`Kf637/Animations-for-Flipper-Zero` A collection of over 420 public animations from tons of different creators.",
+      "description": "",
+      "url": "https://github.com/Kf637/Animations-for-Flipper-Zero",
+      "category": "Graphics & Animations",
+      "subcategory": "*Pre-made animations*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "39a333e16e354ed76e8decefce85a903",
+      "title": "`Flipper Animation Manager` Visualize and manage animations directly from your computer.",
+      "description": "",
+      "url": "https://github.com/Ooggle/FlipperAnimationManager",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5ab3359020b13874abd9f4cea0c4553e",
+      "title": "`H4XV's Gif2Anim` Gif2FlipperAnimation Converter",
+      "description": "",
+      "url": "https://github.com/H4XV/flipper-animation-generator",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5758a2e1259b3d9b98bd5949c21f07f1",
+      "title": "`zip2Animation` Utility to assist in creating animations.",
+      "description": "",
+      "url": "https://github.com/CharlesTheGreat77/zip2Animation",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "39a333e16e354ed76e8decefce85a903",
+      "title": "`Flipper Animation Manager` Visualize and manage animations directly from your computer.",
+      "description": "",
+      "url": "https://github.com/Ooggle/FlipperAnimationManager",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5ab3359020b13874abd9f4cea0c4553e",
+      "title": "`H4XV's Gif2Anim` Gif2FlipperAnimation Converter",
+      "description": "",
+      "url": "https://github.com/H4XV/flipper-animation-generator",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "5758a2e1259b3d9b98bd5949c21f07f1",
+      "title": "`zip2Animation` Utility to assist in creating animations.",
+      "description": "",
+      "url": "https://github.com/CharlesTheGreat77/zip2Animation",
+      "category": "Graphics & Animations",
+      "subcategory": "*Utilities*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "1cc91515593422709ed303c81341fc88",
+      "title": "`Ultimate Flipper Zero Case` 3D printed case with room for 3rd party modules & 2x WiFi dev board slots.",
+      "description": "",
+      "url": "https://www.printables.com/model/527482-ultimate-flipper-case",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "e21185fe70ec53eafebdb886e10c37d0",
+      "title": "`FlipperZero-Hardware` 3D-Printable cases with custom iButton interface.",
+      "description": "",
+      "url": "https://github.com/s0ko1ex/FlipperZero-Hardware",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "369782f9babec9d6fb38a9a78a1364bc",
+      "title": "`Flipper Zero Cases` 3D-Printable case & cover models.",
+      "description": "",
+      "url": "https://github.com/MuddledBox/FlipperZeroCases",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "3a9610b3accf1a69734fb4c8111dde47",
+      "title": "`Pelican case` Big case to hold Flipper and USB.",
+      "description": "",
+      "url": "https://www.printables.com/model/204882-flipper-zero-case",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9b2494246e31c65b05a49e872239ee62",
+      "title": "`Hard case` Smaller than pelican case, but still bulky.",
+      "description": "",
+      "url": "https://www.thingiverse.com/thing:5387015",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "2b2690e4bf0f24529713499cf55f21f1",
+      "title": "`WiFi Module v1 Case` Small cover for the WiFi dev board.",
+      "description": "",
+      "url": "https://www.printables.com/model/179910-case-for-flipper-zero-wi-fi-module-v1",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "87399ac4ae0fdee28c194504efebf4a5",
+      "title": "`Skadis holder` Flipper Zero holder for Ikea Skadis.",
+      "description": "",
+      "url": "https://www.thingiverse.com/thing:5434476",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ac25f673ed6d2e252982998867ab0aaf",
+      "title": "`Flipper Zero Car Mount` Uses foam from the original box.",
+      "description": "",
+      "url": "https://www.thingiverse.com/thing:5464899",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9438085a44156c02799dd2f6063f0808",
+      "title": "`Soft TPU cover` Similar to the official silicone case.",
+      "description": "",
+      "url": "https://www.printables.com/en/model/272676-soft-tpu-flipper-zero-cover",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "4b1e0d131075a1022cfbcf845fe7c194",
+      "title": "`Flipper-Boy` Flipper Zero Case with 22mm Watch Strap Adapter.",
+      "description": "",
+      "url": "https://www.printables.com/model/304243-flipper-boy",
+      "category": "Modules & Cases",
+      "subcategory": "*Cases*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "29280565a2d658f53f71007dbabfabe4",
+      "title": "`ESP32 Marauder on WiFi dev board` Portable WiFi/Bluetooth pentesting.",
+      "description": "",
+      "url": "https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "3fac9a525a2d6cac36f366a7f8960631",
+      "title": "`ESP32 Marauder guide video` Companion video for the above link.",
+      "description": "",
+      "url": "https://youtu.be/_YLTpNo5xa0",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "56dd81d5dc995dcfc8691dccc5d5adc0",
+      "title": "`FlipperZero-Protoboards-Kicad` KiCad prototype boards.",
+      "description": "",
+      "url": "https://github.com/lomalkin/flipperzero-protoboards-kicad",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "11b06a28130a64db06e25e701c69f802",
+      "title": "`WiFi Scanner Module` Scans for WiFi networks via a custom Wemos module board.",
+      "description": "",
+      "url": "https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "47b23c064e4ca2d57e68dbc8d4385303",
+      "title": "`WiFi Scanner Module Flasher` Web flasher for module firmware above.",
+      "description": "",
+      "url": "https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "397d0b78a3dbcfbc9e23f12e1c3d8a3b",
+      "title": "`WiFi DSTIKE Deauther` Preforms WiFi deauth attacks via a custom ESP8266 module board.",
+      "description": "",
+      "url": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "19c57a78afb83dc3453d03f33851b3db",
+      "title": "`WiFi Deauther Module Flasher` Web flasher for module firmware above.",
+      "description": "",
+      "url": "https://sequoiasan.github.io/FlipperZero-Wifi-ESP8266-Deauther-Module/",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "991659c64d7f1fbf2814d9292f4615ed",
+      "title": "`Flipper Zero Boards` ESP32 and NRF24 daughterboards for the Flipper.",
+      "description": "",
+      "url": "https://github.com/DrB0rk/Flipper-Zero-Boards",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "db56d18a4561043d5812123a5f181669",
+      "title": "`Flipper-Zero-Backpacks` Backpack addon boards with ESP32, Raspberry Pi, Protoboards etc.",
+      "description": "",
+      "url": "https://github.com/Chrismettal/flipper-zero-backpacks",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f9913a745bcd30cd25ec54eac4bce17f",
+      "title": "`WiFi Devboard Pelican Case` Top case that works with the 4mm FZ Pelican case.",
+      "description": "",
+      "url": "https://github.com/Z3BRO/Flipper-Zero-Pelican-Case-Wifi-Devboard",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "56448e2ee4959bcae6466158bb4c9545",
+      "title": "`The Mayhem Fin` ESP32 with WiFi, BT/BLE, Micro-SD, Camera, Flashlight, NRF24/CC1101, and more.",
+      "description": "",
+      "url": "https://github.com/eried/flipperzero-mayhem",
+      "category": "Modules & Cases",
+      "subcategory": "*Modules*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "348343697dec4906c025ca0562371a31",
+      "title": "`Flipper Zero screen protector` Official screen protector for the Flipper Zero.",
+      "description": "",
+      "url": "https://shop.flipperzero.one/products/screen-protector-for-flipper-zero",
+      "category": "Modules & Cases",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "3a8832b1219b4f640f499eef7dea1988",
+      "title": "`FlipperZero RGB backlight` Replacing stock backlight with RGB",
+      "description": "",
+      "url": "https://github.com/quen0n/flipperzero-firmware-rgb",
+      "category": "Modules & Cases",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f6291a60718f1975a93d5e10c9fa398a",
+      "title": "`Official Web Interface` Web interface to interact with Flipper, including Paint and SUB/IR analyzer.",
+      "description": "",
+      "url": "https://lab.flipper.net/",
+      "category": "Off-device & Debugging",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "80c3c6faa3275695d8b0bdcea7772147",
+      "title": "`Flipper Maker` Generate Flipper Zero files on the fly.",
+      "description": "",
+      "url": "https://flippermaker.github.io/",
+      "category": "Off-device & Debugging",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "37afd78068536e516a6e3ddc9527cab7",
+      "title": "`Flipper File Toolbox` Scripts for generating Flipper data files.",
+      "description": "",
+      "url": "https://github.com/evilpete/flipper_toolbox",
+      "category": "Off-device & Debugging",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "d47ad59c9d48a34b77bee105bce6ba08",
+      "title": "`Flipper Zero Syntax Highlighting` VSCode extension that will add syntax highlighting for Flipper Zero files.",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=nortakales.flipper-zero-syntax-highlighting",
+      "category": "Off-device & Debugging",
+      "subcategory": "*General*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f4e09afbe2bae2b6ebdcd44583763365",
+      "title": "`OOK to .sub` Python script to generate Flipper RAW .sub files from OOK bitstreams.",
+      "description": "",
+      "url": "https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "81c617acc6746177cd9792d6450b95f4",
+      "title": "`csv2ir` Script to convert IRDB CSV's to Flipper .ir files.",
+      "description": "",
+      "url": "https://github.com/Spexivus/csv2ir",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "7e3b53d9fe57c683803c77c867e07840",
+      "title": "`AmiiboFlipperConverter` Script that converts Amiibo's to Flipper format.",
+      "description": "",
+      "url": "https://github.com/Lucaslhm/AmiiboFlipperConverter/",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "1bd96209041f3d8f82aa1da614e8a83f",
+      "title": "`VertProntoIR2FlipperIR` Converts Vert Pronto IR codes to Flipper format.",
+      "description": "",
+      "url": "https://github.com/SkeletonMan03/VertProntoIR2FlipperIR",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "37b064cff51cd45e5d4dde405e1536fc",
+      "title": "`FlippMibo` Yet another Amiibo to Flipper conversion script.",
+      "description": "",
+      "url": "https://github.com/0xz00n/FlipMiibo",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "053c6b3d11fbb2a053785e10e216c172",
+      "title": "`ClassicConverter` Converts Mifare Classic binary files to Flipper.",
+      "description": "",
+      "url": "https://github.com/equipter/ClassicConverter",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "b8a5264bb6cbabf6aff2a87dba78a6b4",
+      "title": "`ClassicConverterWeb` Converts between Mifare Classic binary and Flipper NFC file.",
+      "description": "",
+      "url": "https://micsen.github.io/flipperNfcToBin/",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "aceca9e03ee3b1f6ad2cb0c0b2747e92",
+      "title": "`musicxml2fmf` Converts MusicXML files to Flipper Music Format.",
+      "description": "",
+      "url": "https://github.com/white-gecko/musicxml2fmf",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "b4742dac6adaee371cfaa0deba7691c3",
+      "title": "`BadUSB keyboard converter` Payload converted for non-US keyboard layouts.",
+      "description": "",
+      "url": "http://helppox.com/badusbconvert.html",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "e95a166c64d376e2998475847b48cefe",
+      "title": "`flipper2mct` A script to convert Flipper NFC files to Mifare Classic Tools format for MC 1k & 4k.",
+      "description": "",
+      "url": "https://gist.github.com/ardubev16/339ee55e0e610e9241dd236c11ac3c3d",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f471d95a4b061dabe7208fbd11188498",
+      "title": "`SerialHex2FlipperZeroInfrared` Convert IR serial messages into FlipperZero compatible IR files.",
+      "description": "",
+      "url": "https://github.com/maehw/SerialHex2FlipperZeroInfrared",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Converters*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "7e872a9476ae1c9646d30d41b77553d9",
+      "title": "`flipperzero-sesproject` Segger Embedded Studio project.",
+      "description": "",
+      "url": "https://github.com/hedger/flipperzero-sesproject",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Development*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9149e8ff4eea03351e9050f44c0ba657",
+      "title": "`flipper0` Rusty crate with safe interface to Flipper Firmware and autogen bindings underneath.",
+      "description": "",
+      "url": "https://crates.io/crates/flipper0",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Development*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "05464d14779f2f3972956345072b1d4c",
+      "title": "`flipperzero-rs` Hand-crafted bindings to Flipper Firmware with custom build tool.",
+      "description": "",
+      "url": "https://github.com/dcoles/flipperzero-rs",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Development*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "bbc66abe6389bedc13b7b8eada1a5150",
+      "title": "`fzfs` Flipper Zero filesystem driver.",
+      "description": "",
+      "url": "https://github.com/dakhnod/fzfs",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Development*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "34dd8e8411498b80855b2a6a07914838",
+      "title": "`FBT-AARCH64` A script that sets up FBT's toolchain on ARM devices.",
+      "description": "",
+      "url": "https://github.com/qqmajikpp/FBT-AARCH64",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Development*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "2f19e4937a37b81cc0facf9e4d3310b3",
+      "title": "`FlipperScripts` Modify the state and level of your dolphin.",
+      "description": "",
+      "url": "https://github.com/DroomOne/FlipperScripts",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "332d2aaff541a16556f6a1eaaed5f4d1",
+      "title": "`Viewing system logs` Dump system logs to serial CLI.",
+      "description": "",
+      "url": "https://gist.github.com/jaflo/50c35c46f3ecada7a18c9e5cc203a3f8",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f19b516ae2fb7d5677cfa9d932b27652",
+      "title": "`CLI Tools` Python scripts to screenshot/stream screen.",
+      "description": "",
+      "url": "https://github.com/lomalkin/flipperzero-cli-tools",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "46444be7fa1272c64576955a907e2bc5",
+      "title": "`Fztea` Connect to your Flipper's UI over serial or make it accessible via SSH.",
+      "description": "",
+      "url": "https://github.com/jon4hz/fztea",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "c19a4a3ec2e0680530e947d23da61cc8",
+      "title": "`pyFlipper` Unofficial CLI wrapper writter in Python.",
+      "description": "",
+      "url": "https://github.com/wh00hw/pyFlipper",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "e5dce7dbfa4e95f3114682b080308feb",
+      "title": "`SUB Plotters / comparers` Python package to plot and compare multiple .sub files.",
+      "description": "",
+      "url": "https://github.com/ShotokanZH/flipper_sub_plotters_comparers",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ac974d64c4576e43058ef1bfddf35dc7",
+      "title": "`U2F SSH Keys` U2F ECDSA SSH Key Generation using Flipper Zero.",
+      "description": "",
+      "url": "https://gist.github.com/BlackPropaganda/44c40f7855a90e289a9477b654e54eb1",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "97efe27bf42b86d1e67b5bd858ce9d99",
+      "title": "`Pagger` Sub-GHz generators for restaurants/kiosks paging systems.",
+      "description": "",
+      "url": "https://meoker.github.io/pagger/",
+      "category": "Off-device & Debugging",
+      "subcategory": "*Utility*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "737d632a3d5ed724d6ab5491a36cb7e9",
+      "title": "`Official battery self-repair guide` How to troubleshoot battery issues.",
+      "description": "",
+      "url": "https://cdn.flipperzero.one/self-repair-guide.pdf",
+      "category": "Notes & References",
+      "subcategory": "*Disassembly/Repair*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9736de982ded4f331bf7a97db92010e5",
+      "title": "`Official firmware recovery guide` How to troubleshoot firmware issues.",
+      "description": "",
+      "url": "https://docs.flipperzero.one/basics/firmware-update/firmware-recovery",
+      "category": "Notes & References",
+      "subcategory": "*Disassembly/Repair*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "f2b1531f7f91d8a673acdf2b522a3a3b",
+      "title": "`Flipper Zero disassembly guide` Difficulty: Moderate, Time: 8-15 Minutes.",
+      "description": "",
+      "url": "https://www.ifixit.com/Guide/Flipper+Zero+Disassembly/151455",
+      "category": "Notes & References",
+      "subcategory": "*Disassembly/Repair*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "9eb91220e0e275fd9fbb6aab4e92d2bb",
+      "title": "`Alternative disassembly video` Third-party video for disassembling the Flipper.",
+      "description": "",
+      "url": "https://youtu.be/38pHe7M4vl8",
+      "category": "Notes & References",
+      "subcategory": "*Disassembly/Repair*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "eb5f00e5822f7e3863dc1c9e750623d9",
+      "title": "`Reset forgotten PIN` How to reset your device's PIN code.",
+      "description": "",
+      "url": "https://gist.github.com/djsime1/18d73b981249859f17aab3e2bfd2b600",
+      "category": "Notes & References",
+      "subcategory": "*Disassembly/Repair*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "fef169215efa40b01f938baff7848818",
+      "title": "`Flipper Zero Hacking 101` Guides with screenshots, files, and general help.",
+      "description": "",
+      "url": "https://flipper.pingywon.com/",
+      "category": "Notes & References",
+      "subcategory": "*Guides*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "e856d9ea870f5a7c855e721774dbbb7b",
+      "title": "`Atmanos Flipper Software Docs` Flipper development tutorials and information.",
+      "description": "",
+      "url": "https://flipper.atmanos.com/docs/overview/intro",
+      "category": "Notes & References",
+      "subcategory": "*Guides*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "20353525e80fbf7095d8992cec6f7530",
+      "title": "`Flipper Zero GPIO Pinout` Official GPIO pinouts.",
+      "description": "",
+      "url": "https://miro.com/app/board/uXjVO_LaYYI=/?moveToWidget=3458764522696947614&cot=10",
+      "category": "Notes & References",
+      "subcategory": "*Guides*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "2a281eead56f48059e94f0c32a90d3ef",
+      "title": "`Flipper Skylanders` How to read a Skylanders figure with Flipper.",
+      "description": "",
+      "url": "https://github.com/V0lk3n/Flipper-Skylanders",
+      "category": "Notes & References",
+      "subcategory": "*Guides*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "fe49975854293f483642c9fcfbe00242",
+      "title": "`Application CI/CD Guide` A complete guide on how to adopt flipper application to regular API changes.",
+      "description": "",
+      "url": "https://gist.github.com/Th3Un1q3/233fa6900d13caa95c6383e53a92bed1",
+      "category": "Notes & References",
+      "subcategory": "*Guides*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "098bef3dc46d49498370a614b0c055f7",
+      "title": "`Add-on Modules GPIO Pinouts` ESP32, ESP8266, ESP32-CAM, ESP32-WROOM, NRF24.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper/tree/main/GPIO",
+      "category": "Notes & References",
+      "subcategory": "*Specifications*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ce5759fcecc332e3bf60328153d499b1",
+      "title": "`Flipper Zero Dimensions` Basic info on screen and case dimensions.",
+      "description": "",
+      "url": "https://github.com/UberGuidoZ/Flipper/tree/main/FlipperZero_Dimensions",
+      "category": "Notes & References",
+      "subcategory": "*Specifications*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "b96ff61f4aee4924afeb20c131bb2e96",
+      "title": "`Firmware roadmap` (outdated?) Official stock firmware roadmap.",
+      "description": "",
+      "url": "https://miro.com/app/board/uXjVO_3D6xU=/?moveToWidget=3458764522498020058&cot=14",
+      "category": "Notes & References",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    },
+    {
+      "id": "ba8ba3dfac11f1e5fe481e1ef3dbe70a",
+      "title": "`Flipper Zero SW&HW keynote` (outdated) Hardware & software architecture document.",
+      "description": "",
+      "url": "https://miro.com/app/board/o9J_l1XZfbw=/?moveToWidget=3458764514405659414&cot=14",
+      "category": "Notes & References",
+      "subcategory": "*Other*",
+      "firstSeen": "2025-03-19T19:12:03.450Z",
+      "isNew": false
+    }
+  ],
+  "categories": [
+    "Table of Contents <small>(Expandable)</small>",
+    "Databases & Dumps",
+    "Applications & Plugins",
+    "Firmwares & Tweaks",
+    "Graphics & Animations",
+    "Modules & Cases",
+    "Off-device & Debugging",
+    "Notes & References"
+  ],
+  "subcategories": {
+    "Table of Contents <small>(Expandable)</small>": [],
+    "Databases & Dumps": [
+      "*General*",
+      "*Sub-GHz*",
+      "*NFC/RFID*",
+      "*Infrared*",
+      "*BadUSB*",
+      "*Music*",
+      "*Other*"
+    ],
+    "Applications & Plugins": [
+      "*General*",
+      "*Sub-GHz*",
+      "*Infrared*",
+      "*BadUSB*",
+      "*GPIO*",
+      "*Wifi Devboard*",
+      "*Bluetooth*",
+      "*Games*",
+      "*Utility/Other*"
+    ],
+    "Firmwares & Tweaks": [
+      "*Official firmware (ofw)*",
+      "*Custom firmware (cfw)*",
+      "*Outdated/Unmaintained firmware*"
+    ],
+    "Graphics & Animations": [
+      "*Tutorials*",
+      "*Pre-made animations*",
+      "*Utilities*"
+    ],
+    "Modules & Cases": [
+      "*Cases*",
+      "*Modules*",
+      "*Other*"
+    ],
+    "Off-device & Debugging": [
+      "*General*",
+      "*Converters*",
+      "*Development*",
+      "*Utility*"
+    ],
+    "Notes & References": [
+      "*Disassembly/Repair*",
+      "*Guides*",
+      "*Specifications*",
+      "*Other*"
+    ]
+  },
+  "lastUpdated": "2025-03-19T19:12:03.450Z"
+}

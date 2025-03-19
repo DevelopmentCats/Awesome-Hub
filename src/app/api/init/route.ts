@@ -1,6 +1,5 @@
 import { existsSync } from 'fs';
 import path from 'path';
-import { NextResponse } from 'next/server';
 
 // Define the data directory
 const DATA_DIR = path.join(process.cwd(), 'data', 'lists');
@@ -15,7 +14,7 @@ export async function GET() {
     const dataDirectoryExists = existsSync(DATA_DIR);
     const trackedReposFileExists = existsSync(TRACKED_REPOS_FILE);
     
-    return NextResponse.json({ 
+    return new Response(JSON.stringify({ 
       success: true, 
       ready: dataDirectoryExists && trackedReposFileExists,
       dataDirectoryExists,
@@ -23,12 +22,17 @@ export async function GET() {
       message: dataDirectoryExists && trackedReposFileExists 
         ? 'System is ready' 
         : 'System needs initialization. Please run the backend scraper.'
+    }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
     });
   } catch (error) {
     console.error('Error checking system status:', error);
-    return NextResponse.json(
-      { success: false, error: String(error), ready: false },
-      { status: 500 }
-    );
+    return new Response(JSON.stringify(
+      { success: false, error: String(error), ready: false }
+    ), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' }
+    });
   }
 } 

@@ -8,4 +8,4 @@ export * from './sidebar';
 export * from './ui';
 
 // Export individual components
-export { default as ThemeProviders } from './ThemeProviders'; 
+export { ThemeProviders } from './ThemeProviders'; 

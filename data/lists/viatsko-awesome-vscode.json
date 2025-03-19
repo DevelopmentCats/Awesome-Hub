@@ -1,0 +1,1002 @@
+{
+  "id": "viatsko/awesome-vscode",
+  "name": "Awesome VSCode",
+  "description": "Language packages extend the editor with syntax highlighting and/or snippets for a specific language or file format.",
+  "owner": "viatsko",
+  "repo": "awesome-vscode",
+  "items": [
+    {
+      "id": "37387696fbd8915859de9c273b5a2a57",
+      "title": "1C/OScript",
+      "description": "rich 1С:Enterprise 8 (BSL) language support in VSC - add syntax highlighting to *.bsl и *.os files in VSC, add IntelliSense and syntax helper for 1С lang",
+      "url": "https://marketplace.visualstudio.com/items?itemName=1c-syntax.language-1c-bsl",
+      "category": "1C",
+      "firstSeen": "2025-03-19T18:55:01.524Z",
+      "isNew": false
+    },
+    {
+      "id": "dc7ccc6bbca5a3e1f336e2680a06f77a",
+      "title": "C/C++",
+      "description": "Preview C/C++ extension by [Microsoft](https://www.microsoft.com), read [official blog post](https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/) for the details",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "19ff297b7295c96519bd78e279f7da9c",
+      "title": "Clangd",
+      "description": "Provides C/C++ language IDE features for VS Code using clangd: code completion, compile errors and warnings, go-to-definition and cross references, include management, code formatting, simple refactorings",
+      "url": "https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f4ae8e68d84afa3482aab64541d82443",
+      "title": "gnu-global-tags",
+      "description": "Provide Intellisense for C/C++ with the help of the GNU Global tool",
+      "url": "https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "314c4e16f9692a69164f62e3d82e86f0",
+      "title": "YouCompleteMe",
+      "description": "Provides semantic completions for C/C++ (and TypeScript, JavaScript, Objective-C, Golang, Rust) using [YouCompleteMe](http://ycm-core.github.io/YouCompleteMe/)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=RichardHe.you-complete-me",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "75e991539c33c565d444119ad8e05f50",
+      "title": "C/C++ Clang Command Adapter",
+      "description": "Completion and Diagnostic for C/C++/Objective-C using Clang command",
+      "url": "https://github.com/mitaki28/vscode-clang",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "cd24e7d4a7e33402ed51b19d7a91d022",
+      "title": "CQuery",
+      "description": "[C/C++ language server](https://github.com/jacobdufault/cquery) supporting multi-million line code base, powered by libclang. Cross references, completion, diagnostics, semantic highlighting and more",
+      "url": "https://github.com/cquery-project/vscode-cquery",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f5cc05e5564a20de1d6e347579424630",
+      "title": "Microsoft's tutorial on using VSCode for remote C/C++ development",
+      "description": "",
+      "url": "https://devblogs.microsoft.com/cppblog/vscode-cpp-may-2019-update/",
+      "category": "C++",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "7c29604b4bcb6101167a36670ca32f71",
+      "title": "C#",
+      "description": "C# extension by [Microsoft](https://www.microsoft.com), read [official documentation](https://code.visualstudio.com/docs/languages/csharp) for the details",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "d5a128e7a86bc66720cc880741dc1558",
+      "title": "C# FixFormat",
+      "description": "Fix format of usings / indents / braces / empty lines",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "95ccbff295ab8eb8dc498d106d3852a4",
+      "title": "C# Extensions",
+      "description": "Provides extensions to the IDE that will speed up your development workflow",
+      "url": "https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f3a7c528d00464fe0c19634ee561f1bc",
+      "title": "MSBuild Project Tools",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=tintoy.msbuild-project-tools",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "1678501712bddfc37b93be66321ebc57",
+      "title": "VSCode Solution Explorer",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "d91bd8943b4b37be2f084ddcc0aa4273",
+      "title": ".NET Core Test Explorer",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer",
+      "category": "C\\#, ASP .NET and .NET Core",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "8a43e9fa79378029c5de886b752fc623",
+      "title": "stylelint",
+      "description": "Lint CSS/SCSS",
+      "url": "https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint",
+      "category": "CSS",
+      "subcategory": "[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "849cbfa50635ea3b508937732d1c48f2",
+      "title": "Autoprefixer",
+      "description": "Parse CSS,SCSS, LESS and add vendor prefixes automatically. ![Autoprefixer](https://cloud.githubusercontent.com/assets/7034281/16823311/da82a3c6-496b-11e6-8d95-0bebbf0b9607.gif)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer",
+      "category": "CSS",
+      "subcategory": "[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "199d0d99980629a4fe54d5d24df78b98",
+      "title": "Intellisense for CSS class names",
+      "description": "Provides CSS class name completion for the HTML class attribute based on the CSS files in your workspace. Also supports React's className attribute. ![Intellisense CSS class names](https://i.imgur.com/5crMfTj.gif)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
+      "category": "CSS",
+      "subcategory": "[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "13fb3c0fb6ef4788fe951e873e2f3f87",
+      "title": "Go",
+      "description": "Rich language support for the Go language",
+      "url": "https://marketplace.visualstudio.com/items?itemName=golang.Go",
+      "category": "Go",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "81ada19d4954515dd365e4f679161f2f",
+      "title": "VsCode Groovy Lint",
+      "description": "Groovy lint, format, prettify and auto-fix",
+      "url": "https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint",
+      "category": "Groovy",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "90832a72e8e3c85440376fab55054bc2",
+      "title": "haskell-linter",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter",
+      "category": "Haskell",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "a9a777a2d9273ed16e3a60eaf3473c3c",
+      "title": "Haskell IDE engine",
+      "description": "provides [language server](https://github.com/haskell/haskell-ide-engine) for stack and cabal projects",
+      "url": "https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server",
+      "category": "Haskell",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "27147736be7f9a259bad417467124963",
+      "title": "HLSL Tools",
+      "description": "provides rich language support for editing HLSL files in VS Code ![Example of statement completion using HLSL Tools for VS Code](https://github.com/tgjones/HlslTools/raw/master/src/ShaderTools.VSCode/art/statement-completion.gif)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=TimGJones.hlsltools",
+      "category": "HLSL",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "727c847c0ea695f5ee87bf57b5ecf5d9",
+      "title": "autocomplate-shell",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=truman.autocomplate-shell",
+      "category": "Shell",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "77041e34ca68f5f88f765845d852159b",
+      "title": "Language Support for Java(TM) by Red Hat",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=redhat.java",
+      "category": "Java",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "de7ac7fd26084272a38992f5dc9f8a42",
+      "title": "Debugger for Java",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug",
+      "category": "Java",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "eab459a55b38cb8ea6371b979398398b",
+      "title": "Maven for Java",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven",
+      "category": "Java",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "140d8caa55f110eb3ccfe00a3898039c",
+      "title": "Lombok",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok",
+      "category": "Java",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "2f29f766fb789550b2a93fe7fc67b19f",
+      "title": "TS/JS postfix completion",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-postfix-ts",
+      "category": "JavaScript",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "e654df495530f229a9f82717ea0805ba",
+      "title": "Babel JavaScript",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel",
+      "category": "JavaScript",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "fa868943db2424b3f0935507609f6393",
+      "title": "Visual Studio IntelliCode",
+      "description": "This extension provides AI-assisted development features including autocomplete and other insights based on understanding your code context. ![Visual Studio IntelliCode](https://docs.microsoft.com/en-us/visualstudio/intellicode/media/python-intellicode.gif)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode",
+      "category": "JavaScript",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b7d6573ecc1bbd01a2f410c29920ffa2",
+      "title": "tslint (deprecated)",
+      "description": "TSLint for Visual Studio Code (with )",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false,
+      "license": "\"tslint.jsEnable\": true"
+    },
+    {
+      "id": "8d145cddcb8f298fe7f141aa7f309e74",
+      "title": "eslint",
+      "description": "Linter for [eslint](https://eslint.org/)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f7a5b5eb064a8fbcae2304c03f5601a4",
+      "title": "XO",
+      "description": "Linter for [XO](https://github.com/xojs/xo)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=samverschueren.linter-xo",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "26499d05e59920243dc0b351bc5d23e5",
+      "title": "AVA",
+      "description": "Snippets for [AVA](https://github.com/avajs/ava)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=samverschueren.ava",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "2a75dd4d91bddef776978c23a6de81a9",
+      "title": "Prettier",
+      "description": "Linter, Formatter and Pretty printer for [Prettier](https://github.com/prettier/prettier-vscode)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "77f9fecf77dd90097c0910b772ff7d47",
+      "title": "Code Spell Checker",
+      "description": "Spelling Checker for Visual Studio Code (English). Also supports other languages via external extensions",
+      "url": "https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "8fd12dc6962e87b9708eb0f3a2d35e84",
+      "title": "Schema.org Snippets",
+      "description": "Snippets for [Schema.org](https://schema.org/)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=austinleegordon.vscode-schema-dot-org",
+      "category": "JavaScript",
+      "subcategory": "Linters",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b597c6b3d2e1d7782ed011596a04afec",
+      "title": "Vetur",
+      "description": "Toolkit for Vue.js ![Vetur](screenshots/Vetur.png)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
+      "category": "JavaScript",
+      "subcategory": "Framework-specific",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "16bdcdb17e6111ff7ae699518c95b0a5",
+      "title": "Flow Language Support",
+      "description": "provides all the functionality you would expect — linting, intellisense, type tooltips and click-to-definition",
+      "url": "https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode",
+      "category": "JavaScript",
+      "subcategory": "Facebook Flow",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "225b0afa99c0c58ae7e8ed1768934168",
+      "title": "vscode-flow-ide",
+      "description": "an alternative Flowtype extension for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=gcazaciuc.vscode-flow-ide",
+      "category": "JavaScript",
+      "subcategory": "Facebook Flow",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b7d6573ecc1bbd01a2f410c29920ffa2",
+      "title": "tslint (deprecated)",
+      "description": "TSLint for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin",
+      "category": "JavaScript",
+      "subcategory": "TypeScript",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "27e7b0929a4df58439c8c709c8c4249b",
+      "title": "PHP Intelephense",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client",
+      "category": "PHP",
+      "subcategory": "IntelliSense",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "1c73186959f55b5b7aac9defe889dae5",
+      "title": "PHP IntelliSense",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense",
+      "category": "PHP",
+      "subcategory": "IntelliSense",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "655b98903cfefa410ba56e5b881b9a71",
+      "title": "Laravel 5 Snippets",
+      "description": "Laravel 5 snippets for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets",
+      "category": "PHP",
+      "subcategory": "Laravel",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "0052a73b44383bfa2b1e5abfd63bcba6",
+      "title": "Laravel Blade Snippets",
+      "description": "Laravel blade snippets and syntax highlight support",
+      "url": "https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade",
+      "category": "PHP",
+      "subcategory": "Laravel",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "eb4dee3171f371bc8fc1679b1bdf80cb",
+      "title": "Laravel Model Snippets",
+      "description": "Quickly get models up and running with Laravel Model Snippets",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets",
+      "category": "PHP",
+      "subcategory": "Laravel",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "10111195c0bb70b911c39dc013661402",
+      "title": "Laravel Artisan",
+      "description": "Laravel Artisan commands within Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan",
+      "category": "PHP",
+      "subcategory": "Laravel",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "c6acf94b06fde5b80ddc9017db858f5d",
+      "title": "DotENV",
+      "description": "Support for dotenv file syntax",
+      "url": "https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv",
+      "category": "PHP",
+      "subcategory": "Laravel",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "9debafec8777be21ddbf045e6d427934",
+      "title": "Twig Language 2",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2",
+      "category": "PHP",
+      "subcategory": "Twig",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "ae0c718534ab14ea75cd0698be920954",
+      "title": "Format HTML in PHP",
+      "description": "Formatting for the HTML in PHP files. Runs before the save action so you can still have a PHP formatter",
+      "url": "https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "e8582fb1809ccb9fbea0021313ebd902",
+      "title": "Composer",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ikappas.composer",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "de00274d5de4302662fe03c89025349f",
+      "title": "PHP Debug",
+      "description": "XDebug extension for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "32ccc1807c442ba4fdfc9b2d4034c8c7",
+      "title": "PHP DocBlocker",
+      "description": "",
+      "url": "https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "2f574dac5af34e5ada08e98bb1c31952",
+      "title": "php cs fixer",
+      "description": "PHP CS Fixer extension for VS Code, php formatter, php code beautify tool",
+      "url": "https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "967d9ff9dbfa60bc210a7becefa9ea8d",
+      "title": "phpcs",
+      "description": "PHP CodeSniffer for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "3e63c6ef781f9a205c1f04d87055941d",
+      "title": "phpfmt",
+      "description": "phpfmt for Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=kokororin.vscode-phpfmt",
+      "category": "PHP",
+      "subcategory": "Other extensions",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "fdb4887de6cfd61d32ad4a98c7f35b2a",
+      "title": "Configuring Visual Studio Code for Drupal",
+      "description": "",
+      "url": "https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code",
+      "category": "PHP",
+      "subcategory": "Read more",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f66d576f824914420e2d0983e77e4fe5",
+      "title": "POV-Ray",
+      "description": "Persistence of Vision Ray Tracer (POV-Ray) Extension, includes Syntax Highlighting and Snippets for common POV-Ray scene elements, Render the current scene from within Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=jmaxwilson.vscode-povray",
+      "category": "POV-Ray",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "990c3b0d5c8e27f6f4f172b354c44907",
+      "title": "Python",
+      "description": "Linting, Debugging (multi threaded, web apps), Intellisense, auto-completion, code formatting, snippets, unit testing, and more",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.python",
+      "category": "Python",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "6d34c845a58d0518c040f58cfcdcc5de",
+      "title": "TensorFlow Snippets",
+      "description": "This extension includes a set of useful code snippets for developing TensorFlow models in Visual Studio Code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=vahidk.tensorflow-snippets",
+      "category": "Python",
+      "subcategory": "TensorFlow",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "6d9255518d82dd450794347630611bdf",
+      "title": "ReasonML",
+      "description": "Intellisense, code formatting, refactoring, code lens and more",
+      "url": "https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode",
+      "category": "ReasonML",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "85ffe5d6b1f89932276e4f0d5ad9a6d2",
+      "title": "rust-analyzer",
+      "description": "Linting, auto-completion, code formatting, snippets and more",
+      "url": "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer",
+      "category": "Rust",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "750c4b14bac8f78bb4663e464496384f",
+      "title": "Terraform",
+      "description": "Syntax highlighting, linting, formatting, and validation for Hashicorp's Terraform",
+      "url": "https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform",
+      "category": "Terraform",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "9bed80d8d23580e53033f0605de552b8",
+      "title": "Essence",
+      "description": "",
+      "url": "https://github.com/essence-language/vscode-extension",
+      "category": "UI",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "5e499e48c5e7e339078e41b8f3c1321f",
+      "title": "Pragmatic Essence",
+      "description": "",
+      "url": "https://github.com/orta/Essence",
+      "category": "UI",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "fc516bbf5e748ba2adb3d4e69e71c051",
+      "title": "@code",
+      "description": "The official VS Code Twitter",
+      "url": "https://twitter.com/code",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b3b31caca7c42cb32ab3e503c6d84589",
+      "title": "@auchenberg",
+      "description": "VS Code Program Manager",
+      "url": "https://twitter.com/auchenberg",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "698fb288fda5a7983cf9396f81da6bac",
+      "title": "@BenjaminPasero",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/BenjaminPasero",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "3984c82df932cbfbaf2646aa47171da2",
+      "title": "@chrisdias",
+      "description": "VS Code Program Manager",
+      "url": "https://twitter.com/chrisdias",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "c8f1a8eb9bcb0de7233747f187b32043",
+      "title": "@_clarkio",
+      "description": "Developer Advocate @ Azure. Creator of VS Code release highlight videos",
+      "url": "https://twitter.com/_clarkio",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "9842fba9016d1338e5fa034bf327d109",
+      "title": "@eamodio",
+      "description": "GitLens creator",
+      "url": "https://twitter.com/eamodio",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "69d20044b3cff02ba4e03cd5d7495380",
+      "title": "@ErichGamma",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/ErichGamma",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "953eb8b0ae1316b7d7bdce66b88d5814",
+      "title": "@IsidorN",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/@IsidorN",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "1292b3e9133cc9c063908c74ab8e634a",
+      "title": "@joaomoreno",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/joaomoreno",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "92d63aeba49d70b51dfc6409609a8021",
+      "title": "@johannesrieken",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/johannesrieken",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "234d0db41dfbdf89d2ffc3f942617915",
+      "title": "@lannonbr",
+      "description": "Creator of vscode.rocks & JS Parameter Annotations extension",
+      "url": "https://twitter.com/lannonbr",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "a1420c3d14cdaea49f92fd196f70363f",
+      "title": "@maeschli",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/maeschli",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "a64ff994d853f6853174b334b9fb5cd2",
+      "title": "@mattbierner",
+      "description": "VS Code Dev",
+      "url": "https://twitter.com/mattbierner",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f5fff1683caadf7190d603dc31ee9afe",
+      "title": "@MrAhmadAwais",
+      "description": "JS/WordPress Core Dev. Creator of VSCode.pro course & Shades of Purple theme",
+      "url": "https://twitter.com/MrAhmadAwais",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "f9fbe2305e008f6a7c75934ac8bc8ed1",
+      "title": "@ramyanexus",
+      "description": "VS Code Dev. Maintainer of Go extension",
+      "url": "https://twitter.com/ramyanexus",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "684375bfbe8ea0270d5d75a45383a1fb",
+      "title": "@Tyriar",
+      "description": "VS Code Dev. Creator of xterm.js",
+      "url": "https://twitter.com/Tyriar",
+      "category": "Syntax",
+      "subcategory": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "9e2ea9eae2c7ce22f2a10b55efee529a",
+      "title": "Better Comments",
+      "description": "The Better Comments extension will help you create more human-friendly comments in your code",
+      "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
+      "category": "Documentation",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "8ab89e858e4359e3379fd307e5d852bc",
+      "title": "Visual Studio Code API",
+      "description": "section of [Official Documentation](https://code.visualstudio.com/docs)",
+      "url": "https://code.visualstudio.com/api",
+      "category": "Documentation",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "6a4872a58cd796d4304d7f36eb82cf97",
+      "title": "vscode-test-content",
+      "description": "A method to set/get editor content, and it's selection. Especially useful for unit tests",
+      "url": "https://github.com/mlewand-org/vscode-test-content",
+      "category": "Libraries",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "6e875c2bb43b56fe0d8efc4be456b86b",
+      "title": "typed-vscode",
+      "description": "Generates types from contribution points of your extension manifest",
+      "url": "https://www.npmjs.com/typed-vscode",
+      "category": "Libraries",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "df71699cfde498c84530f07b1833da6d",
+      "title": "Live Share",
+      "description": "Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless what programming languages you're using or app types you're building",
+      "url": "https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "01dbaecfb9b95671de8dd1d4ace2ada1",
+      "title": "Online TextMate Themes Editor",
+      "description": "since VS Code supports TextMate themes, you can create them in this online editor and then create a new VS Code package using [Yo Code](https://code.visualstudio.com/docs/extensions/yocode) tool",
+      "url": "https://tmtheme-editor.herokuapp.com/",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b460bd8398e243ffaaec87f19c1f4da7",
+      "title": "Yo Code - Extension Generator",
+      "description": "",
+      "url": "https://code.visualstudio.com/docs/extensions/yocode",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "62bfec1bf6c0b1540a1db0c113074efa",
+      "title": "Open in Code",
+      "description": "macOS Finder toolbar app to open current folder in Visual Studio Code",
+      "url": "https://github.com/sozercan/OpenInCode",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "d197a46e561279719e617890b9bf4a9d",
+      "title": "Themer",
+      "description": "Easily create your own theme for VS Code (and matching ones for your other tools)",
+      "url": "https://themer.dev",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "d38bde960802cf55cb540d21bcf95fbb",
+      "title": "Azure Tools for Visual Studio Code",
+      "description": "This extension for Visual Studio Code gives Azure developers some convenient commands for creating or accessing resources directly in the editor",
+      "url": "https://github.com/bradygaster-zz/azure-tools-vscode",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "86cbc051bb5d5cbd2f63d66d87d0ca01",
+      "title": "Mark down preview",
+      "description": "Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc. A lot of its ideas are inspired by Markdown Preview Plus and RStudio Markdown",
+      "url": "https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced",
+      "category": "Tools",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "b4dafeb8f885a3dd84e54924736b1978",
+      "title": "VSCode.pro",
+      "description": "📺 Huge five hours 65 videos VSCode course",
+      "url": "https://vscode.pro/",
+      "category": "Visual Studio Code Power User Course (commercial)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    },
+    {
+      "id": "cbab6ae637f4c2392cf27582eebdf24a",
+      "title": "Ahmad Awais",
+      "description": "🙌 Creator of Shades of Purple theme. Core Developer for WP/JS. OSS Dev Advocate",
+      "url": "https://twitter.com/MrAhmadAwais/",
+      "category": "Visual Studio Code Power User Course (commercial)",
+      "firstSeen": "2025-03-19T18:55:01.525Z",
+      "isNew": false
+    }
+  ],
+  "categories": [
+    "1C",
+    "C++",
+    "C\\#, ASP .NET and .NET Core",
+    "CSS",
+    "Go",
+    "Groovy",
+    "Haskell",
+    "HLSL",
+    "Shell",
+    "Java",
+    "JavaScript",
+    "PHP",
+    "POV-Ray",
+    "Python",
+    "ReasonML",
+    "Rust",
+    "Terraform",
+    "UI",
+    "Syntax",
+    "Documentation",
+    "Libraries",
+    "Tools",
+    "Visual Studio Code Power User Course (commercial)"
+  ],
+  "subcategories": {
+    "1C": [],
+    "C++": [],
+    "C\\#, ASP .NET and .NET Core": [],
+    "CSS": [
+      "[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)"
+    ],
+    "Go": [],
+    "Groovy": [],
+    "Haskell": [],
+    "HLSL": [],
+    "Shell": [],
+    "Java": [],
+    "JavaScript": [
+      "Linters",
+      "Framework-specific",
+      "[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)",
+      "Facebook Flow",
+      "TypeScript"
+    ],
+    "PHP": [
+      "[PHP Tools](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)",
+      "IntelliSense",
+      "Laravel",
+      "Twig",
+      "Smarty",
+      "Other extensions",
+      "Read more"
+    ],
+    "POV-Ray": [],
+    "Python": [
+      "TensorFlow"
+    ],
+    "ReasonML": [],
+    "Rust": [],
+    "Terraform": [],
+    "UI": [],
+    "Syntax": [
+      "[2077 theme by Endormi](https://vscodethemes.com/e/Endormi.2077-theme)",
+      "[An Old Hope Theme by Dustin Sanders](https://vscodethemes.com/e/dustinsanders.an-old-hope-theme-vscode)",
+      "[Ariake Dark by wart](https://vscodethemes.com/e/wart.ariake-dark)",
+      "[Atom One Dark Theme by Mahmoud Ali](https://vscodethemes.com/e/akamud.vscode-theme-onedark)",
+      "[Atomize by emroussel](https://vscodethemes.com/e/emroussel.atomize-atom-one-dark-theme)",
+      "[Ayu by teabyii](https://vscodethemes.com/e/teabyii.ayu)",
+      "[Borealis Theme by Alexander Eckert](https://vscodethemes.com/e/eckertalex.borealis)",
+      "[Captain Sweetheart by ultradracula](https://vscodethemes.com/e/ultradracula.captain-sweetheart)",
+      "[City Lights by Yummygum](https://vscodethemes.com/e/Yummygum.city-lights-theme)",
+      "[Cobalt2 Theme Official by Wes Bos](https://vscodethemes.com/e/wesbos.theme-cobalt2)",
+      "[Dracula Official by Dracula Theme](https://vscodethemes.com/e/dracula-theme.theme-dracula)",
+      "[Edge by Bogdan Lazar](https://vscodethemes.com/e/bogdanlazar.edge)",
+      "[Eva Theme by fisheva](https://vscodethemes.com/e/fisheva.eva-theme)",
+      "[Fairy Floss by nopjmp and sailorhg](https://vscodethemes.com/e/nopjmp.fairyfloss)",
+      "[GitHub Theme by Thomas Pink](https://vscodethemes.com/e/thomaspink.theme-github)",
+      "[Jellybeans Theme by Dimitar Nonov](https://vscodethemes.com/e/DimitarNonov.jellybeans-theme)",
+      "[Material Palenight Theme by whizkydee](https://vscodethemes.com/e/whizkydee.material-palenight-theme)",
+      "[Material Theme by Mattia Astorino](https://vscodethemes.com/e/Equinusocio.vsc-material-theme)",
+      "[Mno by u29dc](https://vscodethemes.com/e/u29dc.mno)",
+      "[Monokai Oblique by pushqrdx](https://vscodethemes.com/e/pushqrdx.theme-monokai-oblique-vscode)",
+      "[Monokai Pro by monokai (commercial)](https://vscodethemes.com/e/monokai.theme-monokai-pro-vscode)",
+      "[Night Owl by Sarah Drasner](https://vscodethemes.com/e/sdras.night-owl)",
+      "[Plastic by Will Stone](https://vscodethemes.com/e/will-stone.plastic)",
+      "[Nord by arcticicestudio](https://vscodethemes.com/e/arcticicestudio.nord-visual-studio-code)",
+      "[Rainglow by Dayle Rees](https://vscodethemes.com/e/daylerees.rainglow)",
+      "[Relaxed Theme by Michael Kühnel](https://vscodethemes.com/e/mischah.relaxed-theme)",
+      "[Shades of Purple by Ahmad Awais](https://vscodethemes.com/e/ahmadawais.shades-of-purple)",
+      "[Slime Theme by smlombardi](https://vscodethemes.com/e/smlombardi.slime)",
+      "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)"
+    ],
+    "Documentation": [],
+    "Libraries": [],
+    "Tools": [],
+    "Visual Studio Code Power User Course (commercial)": []
+  },
+  "lastUpdated": "2025-03-19T18:55:01.525Z"
+}
